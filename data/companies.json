@@ -1,7 +1,7 @@
 [
   {
     "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
-    "name": "Test Company Ltda",
+    "name": "Empresa Editada Automaticamente",
     "document": {
       "number": "11222333000189",
       "type": "CNPJ"
@@ -20,7 +20,7 @@
       "phone": "11999999999"
     },
     "created_at": "2025-09-08T21:17:05.131891",
-    "updated_at": "2025-09-08T21:17:05.131895"
+    "updated_at": "2025-09-09T10:53:57.983319"
   },
   {
     "id": "9a004ff5-0add-48e7-9721-e684a377059e",
@@ -113,5 +113,74 @@
     },
     "created_at": "2025-09-08T21:26:31.959709",
     "updated_at": "2025-09-08T21:26:31.959712"
+  },
+  {
+    "id": "fb326088-2a9f-436f-b388-1cf3b993d12c",
+    "name": "Empresa Teste Automatizado",
+    "document": {
+      "number": "11222333000189",
+      "type": "CNPJ"
+    },
+    "address": {
+      "postal_code": "01310100",
+      "street": "Av. Paulista",
+      "number": "1000",
+      "neighborhood": "Bela Vista",
+      "city": "São Paulo",
+      "state": "SP",
+      "complement": null
+    },
+    "contact": {
+      "email": "teste@automatizado.com",
+      "phone": "11999999999"
+    },
+    "created_at": "2025-09-09T10:50:24.276002",
+    "updated_at": "2025-09-09T10:50:24.276009"
+  },
+  {
+    "id": "48aab2c9-0ead-4edd-8410-cc8b3efdd64b",
+    "name": "Empresa Teste Automatizado",
+    "document": {
+      "number": "11222333000189",
+      "type": "CNPJ"
+    },
+    "address": {
+      "postal_code": "01310100",
+      "street": "Av. Paulista",
+      "number": "1000",
+      "neighborhood": "Bela Vista",
+      "city": "São Paulo",
+      "state": "SP",
+      "complement": null
+    },
+    "contact": {
+      "email": "teste@automatizado.com",
+      "phone": "11999999999"
+    },
+    "created_at": "2025-09-09T10:52:44.662975",
+    "updated_at": "2025-09-09T10:52:44.663008"
+  },
+  {
+    "id": "cfc28106-176d-4491-a4d7-4986238684cf",
+    "name": "Empresa Teste Automatizado",
+    "document": {
+      "number": "11222333000189",
+      "type": "CNPJ"
+    },
+    "address": {
+      "postal_code": "01310100",
+      "street": "Av. Paulista",
+      "number": "1000",
+      "neighborhood": "Bela Vista",
+      "city": "São Paulo",
+      "state": "SP",
+      "complement": null
+    },
+    "contact": {
+      "email": "teste@automatizado.com",
+      "phone": "11999999999"
+    },
+    "created_at": "2025-09-09T10:53:57.980718",
+    "updated_at": "2025-09-09T10:53:57.980732"
   }
 ]

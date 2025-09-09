@@ -16,6 +16,9 @@ class Product(BaseEntity):
     unit_price: Decimal = Decimal('0.00')
     unit: str = "UN"
     stock_quantity: int = 0
+    description: str = ""
+    category: str = ""
+    barcode: str = ""
     
     def __post_init__(self):
         """Initialize product entity."""

@@ -51,6 +51,13 @@ class ProductResponseDTO:
     description: Optional[str] = None
     category: Optional[str] = None
     barcode: Optional[str] = None
+    
+    def __post_init__(self):
+        """Ensure price equals unit_price for compatibility."""
+        if hasattr(self, 'unit_price') and not hasattr(self, 'price'):
+            self.price = self.unit_price
+        elif not hasattr(self, 'price'):
+            self.price = self.unit_price
 
 
 @dataclass

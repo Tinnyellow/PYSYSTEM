@@ -261,6 +261,7 @@ class ProductUseCases:
     
     def __init__(self, product_repository, excel_processing_service):
         """Initialize product use cases."""
+        self._product_repository = product_repository
         self.create = CreateProductUseCase(product_repository)
         self.import_from_excel = ImportProductsFromExcelUseCase(product_repository, excel_processing_service)
         self.update = UpdateProductUseCase(product_repository)
@@ -268,3 +269,44 @@ class ProductUseCases:
         self.get = GetProductUseCase(product_repository)
         self.list = ListProductsUseCase(product_repository)
         self.search = SearchProductsUseCase(product_repository)
+    
+    def get_available(self) -> List[Product]:
+        """Get all products with stock available."""
+        try:
+            all_products = self._product_repository.get_all()
+            return [product for product in all_products if product.stock_quantity > 0]
+        except Exception as e:
+            print(f"Error getting available products: {e}")
+            return []
+    
+    def update_stock(self, product_id: str, new_stock: int) -> bool:
+        """Update product stock quantity."""
+        try:
+            if new_stock < 0:
+                raise ValueError("Stock quantity cannot be negative")
+            
+            product = self._product_repository.get_by_id(product_id)
+            if not product:
+                return False
+            
+            product.stock_quantity = new_stock
+            updated_product = self._product_repository.update(product)
+            return updated_product is not None
+        except Exception as e:
+            print(f"Error updating stock: {e}")
+            return False
+    
+    def search_products(self, search_term: str) -> List[Product]:
+        """Search products by term."""
+        try:
+            all_products = self._product_repository.get_all()
+            search_term = search_term.lower()
+            return [
+                product for product in all_products
+                if (search_term in product.name.lower() or 
+                    search_term in product.sku.lower() or
+                    (product.description and search_term in product.description.lower()))
+            ]
+        except Exception as e:
+            print(f"Error searching products: {e}")
+            return []

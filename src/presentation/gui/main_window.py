@@ -298,6 +298,14 @@ class MainWindow:
         right_section.pack(side='right', fill='y', padx=(0, 20))
         
         # System status
+        self.status_bar = tk.Label(
+            right_section,
+            text=f"{get_corporate_icon('system')} Sistema PYSYSTEM - Pronto",
+            fg=self.theme['text_inverse'],
+            bg=self.theme['primary'],
+            font=get_corporate_font('body')
+        )
+        self.status_bar.pack(side='right', pady=15)
         self.system_status_label = tk.Label(
             right_section,
             text=f"{get_corporate_icon('success')} System Active",
@@ -308,30 +316,35 @@ class MainWindow:
         self.system_status_label.pack(side='right', pady=15)
     
     def _create_menu(self):
-        """Create professional application menu."""
-        menubar = tk.Menu(self.root)
-        self.root.config(menu=menubar)
+        """Create professional menu bar."""
+        self.menu_bar = tk.Menu(self.root, bg=self.theme['surface'], 
+                               fg=self.theme['text_primary'],
+                               activebackground=self.theme['primary'],
+                               activeforeground=self.theme['text_inverse'])
+        self.root.config(menu=self.menu_bar)
         
         # File menu
-        file_menu = tk.Menu(menubar, tearoff=0)
-        menubar.add_cascade(label="File", menu=file_menu)
+        file_menu = tk.Menu(self.menu_bar, tearoff=0,
+                           bg=self.theme['surface'],
+                           fg=self.theme['text_primary'])
+        self.menu_bar.add_cascade(label="Arquivo", menu=file_menu)
         file_menu.add_separator()
-        file_menu.add_command(label="Exit", command=self._quit_application)
+        file_menu.add_command(label="Sair", command=self.root.quit)
         
-        # View menu
-        view_menu = tk.Menu(menubar, tearoff=0)
-        menubar.add_cascade(label="View", menu=view_menu)
-        view_menu.add_command(label="Refresh All", command=self._refresh_all)
-        
-        # Tools menu
-        tools_menu = tk.Menu(menubar, tearoff=0)
-        menubar.add_cascade(label="Tools", menu=tools_menu)
-        tools_menu.add_command(label="System Report", command=self._show_system_report)
+        # Data menu
+        data_menu = tk.Menu(self.menu_bar, tearoff=0,
+                           bg=self.theme['surface'],
+                           fg=self.theme['text_primary'])
+        self.menu_bar.add_cascade(label="Dados", menu=data_menu)
+        data_menu.add_command(label="Atualizar", command=self._refresh_data)
+        data_menu.add_separator()
         
         # Help menu
-        help_menu = tk.Menu(menubar, tearoff=0)
-        menubar.add_cascade(label="Help", menu=help_menu)
-        help_menu.add_command(label="About", command=self._show_about)
+        help_menu = tk.Menu(self.menu_bar, tearoff=0,
+                           bg=self.theme['surface'],
+                           fg=self.theme['text_primary'])
+        self.menu_bar.add_cascade(label="Ajuda", menu=help_menu)
+        help_menu.add_command(label="Sobre", command=self._show_about)
     
     def _update_status_bar(self):
         """Update status bar with current business metrics."""
@@ -553,3 +566,36 @@ following SOLID principles and best practices.
         if messagebox.askyesno("Exit Application", 
                               f"{get_corporate_icon('help')} Are you sure you want to exit the Business Management System?"):
             self.root.quit()
+
+    def _refresh_data(self):
+        """Refresh all data in the interface."""
+        try:
+            # Refresh each tab
+            if hasattr(self.company_frame, 'refresh'):
+                self.company_frame.refresh()
+            if hasattr(self.product_frame, 'refresh'):
+                self.product_frame.refresh() 
+            if hasattr(self.sales_order_frame, 'refresh'):
+                self.sales_order_frame.refresh()
+            
+            # Update status bar
+            self._update_status_bar()
+            
+        except Exception as e:
+            messagebox.showerror("Erro", f"Erro ao atualizar dados: {e}")
+    
+    def _show_about(self):
+        """Show about dialog."""
+        about_text = """PYSYSTEM v1.0
+Sistema de Gestão Empresarial
+
+Um sistema completo para gestão de:
+• Empresas e Clientes
+• Produtos e Estoque
+• Pedidos de Vendas
+• Relatórios e Análises
+
+Desenvolvido com Python e Tkinter
+Interface corporativa profissional"""
+        
+        messagebox.showinfo("Sobre o PYSYSTEM", about_text)

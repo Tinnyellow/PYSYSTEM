@@ -21,7 +21,9 @@ class CompanyController:
     
     def update_company(self, company_id: str, dto: UpdateCompanyDTO) -> CompanyResponseDTO:
         """Update an existing company."""
-        return self.company_use_cases.update.execute(company_id, dto)
+        # Ensure the DTO has the correct company_id
+        dto.company_id = company_id
+        return self.company_use_cases.update.execute(dto)
     
     def delete_company(self, company_id: str) -> bool:
         """Delete a company."""

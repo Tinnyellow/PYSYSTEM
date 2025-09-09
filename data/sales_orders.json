@@ -41,5 +41,2561 @@
     ],
     "created_at": "2025-09-08T21:26:31.960256",
     "updated_at": "2025-09-08T21:26:31.960616"
+  },
+  {
+    "id": "d7f797da-2738-46be-9751-46a4e68ee39d",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "bcd36e32-95a2-4137-956b-23046a439177",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 96
+        },
+        "quantity": 2,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T10:52:44.667097",
+        "updated_at": "2025-09-09T10:52:44.667097"
+      }
+    ],
+    "created_at": "2025-09-09T10:52:44.666836",
+    "updated_at": "2025-09-09T10:52:44.667274"
+  },
+  {
+    "id": "bd49dfb2-66f8-42d8-b77a-d5d9d3fe28f2",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "d4a9948d-4a4d-44dc-9a9e-5b1c722dfacd",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 94
+        },
+        "quantity": 2,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T10:53:57.991014",
+        "updated_at": "2025-09-09T10:53:57.991015"
+      }
+    ],
+    "created_at": "2025-09-09T10:53:57.989656",
+    "updated_at": "2025-09-09T10:53:57.991601"
+  },
+  {
+    "id": "023f6c96-46c0-4ae6-87a0-988b1f61e59c",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "ca205da7-8dbe-4296-980c-ada7300863f2",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 93
+        },
+        "quantity": 1,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:14:43.436029",
+        "updated_at": "2025-09-09T11:14:43.436030"
+      },
+      {
+        "id": "d466820c-c8c7-4884-a0e0-377bbda6c701",
+        "product": {
+          "id": "3a86c33d-c36d-4cbb-9d20-79a00bb2a1af",
+          "sku": "AUTO-TEST-001",
+          "name": "Produto Teste Automatizado",
+          "unit_price": "199.99",
+          "unit": "pcs",
+          "stock_quantity": 48
+        },
+        "quantity": 2,
+        "unit_price": "199.99",
+        "created_at": "2025-09-09T11:14:43.436496",
+        "updated_at": "2025-09-09T11:14:43.436497"
+      },
+      {
+        "id": "d11264d2-eefe-46bb-b5b2-5970bb40e47e",
+        "product": {
+          "id": "97d374dd-35a5-47f4-9b3e-5188e55b16c7",
+          "sku": "ULTRA-TEST-Bl1Y",
+          "name": "Notebook Dell Inspiron 15 - EDITADO",
+          "unit_price": "2649.99",
+          "unit": "pcs",
+          "stock_quantity": 56
+        },
+        "quantity": 4,
+        "unit_price": "2649.99",
+        "created_at": "2025-09-09T11:14:43.436939",
+        "updated_at": "2025-09-09T11:14:43.436939"
+      }
+    ],
+    "created_at": "2025-09-09T11:14:43.435169",
+    "updated_at": "2025-09-09T11:14:43.437044"
+  },
+  {
+    "id": "148f10c8-b5e9-4793-8084-90d246725b7e",
+    "company": {
+      "id": "9a004ff5-0add-48e7-9721-e684a377059e",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "cb1c9d47-a2be-4b57-8d35-3e9af02834de",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 91
+        },
+        "quantity": 2,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:14:43.437413",
+        "updated_at": "2025-09-09T11:14:43.437413"
+      },
+      {
+        "id": "19e7e267-63b0-4e44-9a06-88e3170106ef",
+        "product": {
+          "id": "3a86c33d-c36d-4cbb-9d20-79a00bb2a1af",
+          "sku": "AUTO-TEST-001",
+          "name": "Produto Teste Automatizado",
+          "unit_price": "199.99",
+          "unit": "pcs",
+          "stock_quantity": 44
+        },
+        "quantity": 4,
+        "unit_price": "199.99",
+        "created_at": "2025-09-09T11:14:43.437937",
+        "updated_at": "2025-09-09T11:14:43.437938"
+      },
+      {
+        "id": "61090496-9022-4a7a-83d7-e4a295336e10",
+        "product": {
+          "id": "97d374dd-35a5-47f4-9b3e-5188e55b16c7",
+          "sku": "ULTRA-TEST-Bl1Y",
+          "name": "Notebook Dell Inspiron 15 - EDITADO",
+          "unit_price": "2649.99",
+          "unit": "pcs",
+          "stock_quantity": 55
+        },
+        "quantity": 1,
+        "unit_price": "2649.99",
+        "created_at": "2025-09-09T11:14:43.438419",
+        "updated_at": "2025-09-09T11:14:43.438420"
+      }
+    ],
+    "created_at": "2025-09-09T11:14:43.435451",
+    "updated_at": "2025-09-09T11:14:43.438519"
+  },
+  {
+    "id": "1e7957a5-a492-4001-bb5c-b60c68fc80c8",
+    "company": {
+      "id": "4271feca-4727-405b-8473-b4ea06deb4cc",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "c2af8972-1532-4f2f-8217-c85195fd2b57",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 87
+        },
+        "quantity": 4,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:14:43.438911",
+        "updated_at": "2025-09-09T11:14:43.438911"
+      },
+      {
+        "id": "d96cee3b-ae2d-4c89-b0db-0fca3f12b524",
+        "product": {
+          "id": "3a86c33d-c36d-4cbb-9d20-79a00bb2a1af",
+          "sku": "AUTO-TEST-001",
+          "name": "Produto Teste Automatizado",
+          "unit_price": "199.99",
+          "unit": "pcs",
+          "stock_quantity": 40
+        },
+        "quantity": 4,
+        "unit_price": "199.99",
+        "created_at": "2025-09-09T11:14:43.439394",
+        "updated_at": "2025-09-09T11:14:43.439394"
+      },
+      {
+        "id": "8e7a3479-d881-44cd-b722-88ec1f44cb47",
+        "product": {
+          "id": "97d374dd-35a5-47f4-9b3e-5188e55b16c7",
+          "sku": "ULTRA-TEST-Bl1Y",
+          "name": "Notebook Dell Inspiron 15 - EDITADO",
+          "unit_price": "2649.99",
+          "unit": "pcs",
+          "stock_quantity": 51
+        },
+        "quantity": 4,
+        "unit_price": "2649.99",
+        "created_at": "2025-09-09T11:14:43.439894",
+        "updated_at": "2025-09-09T11:14:43.439895"
+      }
+    ],
+    "created_at": "2025-09-09T11:14:43.435697",
+    "updated_at": "2025-09-09T11:14:43.439993"
+  },
+  {
+    "id": "a9fd087d-9e7c-4ba8-b710-32b6cb32beb7",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:14:43.440895",
+    "updated_at": "2025-09-09T11:14:43.440896"
+  },
+  {
+    "id": "4b543611-05b1-4fb1-be06-3f0a2fe94907",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "71fae47f-4524-4ed5-a002-891ce1fbaada",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 83
+        },
+        "quantity": 4,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:20:34.597915",
+        "updated_at": "2025-09-09T11:20:34.597915"
+      },
+      {
+        "id": "d2bb46c8-5c71-4679-ad4e-217541b685e9",
+        "product": {
+          "id": "3a86c33d-c36d-4cbb-9d20-79a00bb2a1af",
+          "sku": "AUTO-TEST-001",
+          "name": "Produto Teste Automatizado",
+          "unit_price": "199.99",
+          "unit": "pcs",
+          "stock_quantity": 35
+        },
+        "quantity": 5,
+        "unit_price": "199.99",
+        "created_at": "2025-09-09T11:20:34.599029",
+        "updated_at": "2025-09-09T11:20:34.599030"
+      },
+      {
+        "id": "f5edcfee-c709-4cad-9ea1-15449d59cb38",
+        "product": {
+          "id": "97d374dd-35a5-47f4-9b3e-5188e55b16c7",
+          "sku": "ULTRA-TEST-Bl1Y",
+          "name": "Notebook Dell Inspiron 15 - EDITADO",
+          "unit_price": "2649.99",
+          "unit": "pcs",
+          "stock_quantity": 46
+        },
+        "quantity": 5,
+        "unit_price": "2649.99",
+        "created_at": "2025-09-09T11:20:34.600159",
+        "updated_at": "2025-09-09T11:20:34.600159"
+      }
+    ],
+    "created_at": "2025-09-09T11:20:34.595636",
+    "updated_at": "2025-09-09T11:20:34.600360"
+  },
+  {
+    "id": "d389b109-95c9-4c82-9067-597d7ad1e0fb",
+    "company": {
+      "id": "9a004ff5-0add-48e7-9721-e684a377059e",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "3c05f61b-c890-4588-a432-7eda902bb445",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 78
+        },
+        "quantity": 5,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:20:34.601132",
+        "updated_at": "2025-09-09T11:20:34.601132"
+      },
+      {
+        "id": "7e78e497-02bc-414a-a7c3-c351e9fc862a",
+        "product": {
+          "id": "3a86c33d-c36d-4cbb-9d20-79a00bb2a1af",
+          "sku": "AUTO-TEST-001",
+          "name": "Produto Teste Automatizado",
+          "unit_price": "199.99",
+          "unit": "pcs",
+          "stock_quantity": 31
+        },
+        "quantity": 4,
+        "unit_price": "199.99",
+        "created_at": "2025-09-09T11:20:34.602063",
+        "updated_at": "2025-09-09T11:20:34.602063"
+      },
+      {
+        "id": "a0421bdc-8b66-4763-b126-beddeecf43d7",
+        "product": {
+          "id": "97d374dd-35a5-47f4-9b3e-5188e55b16c7",
+          "sku": "ULTRA-TEST-Bl1Y",
+          "name": "Notebook Dell Inspiron 15 - EDITADO",
+          "unit_price": "2649.99",
+          "unit": "pcs",
+          "stock_quantity": 42
+        },
+        "quantity": 4,
+        "unit_price": "2649.99",
+        "created_at": "2025-09-09T11:20:34.603094",
+        "updated_at": "2025-09-09T11:20:34.603094"
+      }
+    ],
+    "created_at": "2025-09-09T11:20:34.596363",
+    "updated_at": "2025-09-09T11:20:34.603280"
+  },
+  {
+    "id": "705055be-77ed-4b9d-a513-4015eb3eb182",
+    "company": {
+      "id": "4271feca-4727-405b-8473-b4ea06deb4cc",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "49800a1e-d9bb-4b75-ada5-b7525ee33a86",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 76
+        },
+        "quantity": 2,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:20:34.604183",
+        "updated_at": "2025-09-09T11:20:34.604184"
+      },
+      {
+        "id": "34abffe4-8810-4007-810a-a4ec82a54a0a",
+        "product": {
+          "id": "3a86c33d-c36d-4cbb-9d20-79a00bb2a1af",
+          "sku": "AUTO-TEST-001",
+          "name": "Produto Teste Automatizado",
+          "unit_price": "199.99",
+          "unit": "pcs",
+          "stock_quantity": 29
+        },
+        "quantity": 2,
+        "unit_price": "199.99",
+        "created_at": "2025-09-09T11:20:34.605256",
+        "updated_at": "2025-09-09T11:20:34.605257"
+      },
+      {
+        "id": "b9362a5a-c438-45ae-86d1-effaf96f593a",
+        "product": {
+          "id": "97d374dd-35a5-47f4-9b3e-5188e55b16c7",
+          "sku": "ULTRA-TEST-Bl1Y",
+          "name": "Notebook Dell Inspiron 15 - EDITADO",
+          "unit_price": "2649.99",
+          "unit": "pcs",
+          "stock_quantity": 38
+        },
+        "quantity": 4,
+        "unit_price": "2649.99",
+        "created_at": "2025-09-09T11:20:34.606296",
+        "updated_at": "2025-09-09T11:20:34.606297"
+      }
+    ],
+    "created_at": "2025-09-09T11:20:34.597027",
+    "updated_at": "2025-09-09T11:20:34.606474"
+  },
+  {
+    "id": "c90b2240-945e-41b7-b44a-c386422df8a0",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:20:34.608253",
+    "updated_at": "2025-09-09T11:20:34.608253"
+  },
+  {
+    "id": "c166353b-67fb-4fef-8a28-75a4193c67d5",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "8a86a0ac-4cec-4c62-b3e9-e76d92056d11",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 75
+        },
+        "quantity": 1,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:20:52.382654",
+        "updated_at": "2025-09-09T11:20:52.382654"
+      },
+      {
+        "id": "8c66c5f1-adcd-432a-a0cc-d531840932ea",
+        "product": {
+          "id": "3a86c33d-c36d-4cbb-9d20-79a00bb2a1af",
+          "sku": "AUTO-TEST-001",
+          "name": "Produto Teste Automatizado",
+          "unit_price": "199.99",
+          "unit": "pcs",
+          "stock_quantity": 24
+        },
+        "quantity": 5,
+        "unit_price": "199.99",
+        "created_at": "2025-09-09T11:20:52.383512",
+        "updated_at": "2025-09-09T11:20:52.383512"
+      },
+      {
+        "id": "16b7a3e1-81c1-4fb0-95b2-553d6495bf2b",
+        "product": {
+          "id": "97d374dd-35a5-47f4-9b3e-5188e55b16c7",
+          "sku": "ULTRA-TEST-Bl1Y",
+          "name": "Notebook Dell Inspiron 15 - EDITADO",
+          "unit_price": "2649.99",
+          "unit": "pcs",
+          "stock_quantity": 36
+        },
+        "quantity": 2,
+        "unit_price": "2649.99",
+        "created_at": "2025-09-09T11:20:52.384556",
+        "updated_at": "2025-09-09T11:20:52.384556"
+      }
+    ],
+    "created_at": "2025-09-09T11:20:52.380617",
+    "updated_at": "2025-09-09T11:20:52.384707"
+  },
+  {
+    "id": "daed7037-7120-48ac-abf7-1ecc68789715",
+    "company": {
+      "id": "9a004ff5-0add-48e7-9721-e684a377059e",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "bb1f12f9-7536-4d4e-ab79-e14420368233",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 70
+        },
+        "quantity": 5,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:20:52.385399",
+        "updated_at": "2025-09-09T11:20:52.385399"
+      },
+      {
+        "id": "c054603a-efc3-49b7-8712-dfc23dac7f92",
+        "product": {
+          "id": "3a86c33d-c36d-4cbb-9d20-79a00bb2a1af",
+          "sku": "AUTO-TEST-001",
+          "name": "Produto Teste Automatizado",
+          "unit_price": "199.99",
+          "unit": "pcs",
+          "stock_quantity": 21
+        },
+        "quantity": 3,
+        "unit_price": "199.99",
+        "created_at": "2025-09-09T11:20:52.386238",
+        "updated_at": "2025-09-09T11:20:52.386238"
+      },
+      {
+        "id": "a0a3c5c9-5064-42ca-a181-1fc2437836fc",
+        "product": {
+          "id": "97d374dd-35a5-47f4-9b3e-5188e55b16c7",
+          "sku": "ULTRA-TEST-Bl1Y",
+          "name": "Notebook Dell Inspiron 15 - EDITADO",
+          "unit_price": "2649.99",
+          "unit": "pcs",
+          "stock_quantity": 31
+        },
+        "quantity": 5,
+        "unit_price": "2649.99",
+        "created_at": "2025-09-09T11:20:52.387100",
+        "updated_at": "2025-09-09T11:20:52.387100"
+      }
+    ],
+    "created_at": "2025-09-09T11:20:52.381358",
+    "updated_at": "2025-09-09T11:20:52.387248"
+  },
+  {
+    "id": "436fdf0e-4f33-4ca0-99e5-4c3d9d629f0e",
+    "company": {
+      "id": "4271feca-4727-405b-8473-b4ea06deb4cc",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "ee0c1d13-6e70-4342-b2e4-60a36d95233b",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 68
+        },
+        "quantity": 2,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:20:52.387956",
+        "updated_at": "2025-09-09T11:20:52.387956"
+      },
+      {
+        "id": "c9cf557a-6247-4bee-a745-29cae9db60a2",
+        "product": {
+          "id": "3a86c33d-c36d-4cbb-9d20-79a00bb2a1af",
+          "sku": "AUTO-TEST-001",
+          "name": "Produto Teste Automatizado",
+          "unit_price": "199.99",
+          "unit": "pcs",
+          "stock_quantity": 18
+        },
+        "quantity": 3,
+        "unit_price": "199.99",
+        "created_at": "2025-09-09T11:20:52.388816",
+        "updated_at": "2025-09-09T11:20:52.388816"
+      },
+      {
+        "id": "cb060162-8261-4dee-bd8a-f20db4044ae1",
+        "product": {
+          "id": "97d374dd-35a5-47f4-9b3e-5188e55b16c7",
+          "sku": "ULTRA-TEST-Bl1Y",
+          "name": "Notebook Dell Inspiron 15 - EDITADO",
+          "unit_price": "2649.99",
+          "unit": "pcs",
+          "stock_quantity": 28
+        },
+        "quantity": 3,
+        "unit_price": "2649.99",
+        "created_at": "2025-09-09T11:20:52.389709",
+        "updated_at": "2025-09-09T11:20:52.389709"
+      }
+    ],
+    "created_at": "2025-09-09T11:20:52.381971",
+    "updated_at": "2025-09-09T11:20:52.389856"
+  },
+  {
+    "id": "d33825f7-3c0f-4ce7-8987-b07c004d7063",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:20:52.391441",
+    "updated_at": "2025-09-09T11:20:52.391442"
+  },
+  {
+    "id": "756dcf55-b534-4a3a-904c-843040c9319a",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "0e00f385-bac8-4a7a-b1ce-0a1bda86e59a",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 65
+        },
+        "quantity": 3,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:21:05.940282",
+        "updated_at": "2025-09-09T11:21:05.940283"
+      },
+      {
+        "id": "dd9d9fa1-cfb8-49f8-a3a1-de155d49500b",
+        "product": {
+          "id": "3a86c33d-c36d-4cbb-9d20-79a00bb2a1af",
+          "sku": "AUTO-TEST-001",
+          "name": "Produto Teste Automatizado",
+          "unit_price": "199.99",
+          "unit": "pcs",
+          "stock_quantity": 13
+        },
+        "quantity": 5,
+        "unit_price": "199.99",
+        "created_at": "2025-09-09T11:21:05.941345",
+        "updated_at": "2025-09-09T11:21:05.941346"
+      },
+      {
+        "id": "fe58fbd5-c032-419b-838f-2f4c902377e0",
+        "product": {
+          "id": "97d374dd-35a5-47f4-9b3e-5188e55b16c7",
+          "sku": "ULTRA-TEST-Bl1Y",
+          "name": "Notebook Dell Inspiron 15 - EDITADO",
+          "unit_price": "2649.99",
+          "unit": "pcs",
+          "stock_quantity": 23
+        },
+        "quantity": 5,
+        "unit_price": "2649.99",
+        "created_at": "2025-09-09T11:21:05.942746",
+        "updated_at": "2025-09-09T11:21:05.942746"
+      }
+    ],
+    "created_at": "2025-09-09T11:21:05.937418",
+    "updated_at": "2025-09-09T11:21:05.942915"
+  },
+  {
+    "id": "f7d19f42-c041-455e-b94f-9fd1aaa124f7",
+    "company": {
+      "id": "9a004ff5-0add-48e7-9721-e684a377059e",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "3820f306-85f8-4c09-99f5-3fe98b13e58d",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 60
+        },
+        "quantity": 5,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:21:05.944117",
+        "updated_at": "2025-09-09T11:21:05.944118"
+      },
+      {
+        "id": "fe90f169-5af9-4808-8ad5-6101a259620a",
+        "product": {
+          "id": "3a86c33d-c36d-4cbb-9d20-79a00bb2a1af",
+          "sku": "AUTO-TEST-001",
+          "name": "Produto Teste Automatizado",
+          "unit_price": "199.99",
+          "unit": "pcs",
+          "stock_quantity": 10
+        },
+        "quantity": 3,
+        "unit_price": "199.99",
+        "created_at": "2025-09-09T11:21:05.945235",
+        "updated_at": "2025-09-09T11:21:05.945235"
+      },
+      {
+        "id": "e9337000-e20d-4d0a-9909-f26dddcb53e6",
+        "product": {
+          "id": "97d374dd-35a5-47f4-9b3e-5188e55b16c7",
+          "sku": "ULTRA-TEST-Bl1Y",
+          "name": "Notebook Dell Inspiron 15 - EDITADO",
+          "unit_price": "2649.99",
+          "unit": "pcs",
+          "stock_quantity": 20
+        },
+        "quantity": 3,
+        "unit_price": "2649.99",
+        "created_at": "2025-09-09T11:21:05.946296",
+        "updated_at": "2025-09-09T11:21:05.946297"
+      }
+    ],
+    "created_at": "2025-09-09T11:21:05.938267",
+    "updated_at": "2025-09-09T11:21:05.946468"
+  },
+  {
+    "id": "22d67920-139f-4781-a835-941277e0744f",
+    "company": {
+      "id": "4271feca-4727-405b-8473-b4ea06deb4cc",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "8d049570-21db-4549-b3b5-b5066ae379a5",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 57
+        },
+        "quantity": 3,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:21:05.947343",
+        "updated_at": "2025-09-09T11:21:05.947343"
+      },
+      {
+        "id": "d444d175-fc08-49e5-9d29-2d3d00931284",
+        "product": {
+          "id": "3a86c33d-c36d-4cbb-9d20-79a00bb2a1af",
+          "sku": "AUTO-TEST-001",
+          "name": "Produto Teste Automatizado",
+          "unit_price": "199.99",
+          "unit": "pcs",
+          "stock_quantity": 6
+        },
+        "quantity": 4,
+        "unit_price": "199.99",
+        "created_at": "2025-09-09T11:21:05.948376",
+        "updated_at": "2025-09-09T11:21:05.948376"
+      },
+      {
+        "id": "6826f0c3-54f9-4be4-83d7-2e28cb42c0d7",
+        "product": {
+          "id": "97d374dd-35a5-47f4-9b3e-5188e55b16c7",
+          "sku": "ULTRA-TEST-Bl1Y",
+          "name": "Notebook Dell Inspiron 15 - EDITADO",
+          "unit_price": "2649.99",
+          "unit": "pcs",
+          "stock_quantity": 16
+        },
+        "quantity": 4,
+        "unit_price": "2649.99",
+        "created_at": "2025-09-09T11:21:05.949441",
+        "updated_at": "2025-09-09T11:21:05.949441"
+      }
+    ],
+    "created_at": "2025-09-09T11:21:05.939126",
+    "updated_at": "2025-09-09T11:21:05.949604"
+  },
+  {
+    "id": "45bfc656-1243-4ff4-99d8-37622d050531",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:21:05.952374",
+    "updated_at": "2025-09-09T11:21:05.952375"
+  },
+  {
+    "id": "fd2e25cf-7959-477b-826b-49fac7e180d0",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "59ae03a1-a945-4dd7-9067-fe60f5dd38be",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 53
+        },
+        "quantity": 4,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:21:18.848065",
+        "updated_at": "2025-09-09T11:21:18.848066"
+      },
+      {
+        "id": "c852f6b1-694d-4bf9-9102-a267d810fdf9",
+        "product": {
+          "id": "3a86c33d-c36d-4cbb-9d20-79a00bb2a1af",
+          "sku": "AUTO-TEST-001",
+          "name": "Produto Teste Automatizado",
+          "unit_price": "199.99",
+          "unit": "pcs",
+          "stock_quantity": 2
+        },
+        "quantity": 4,
+        "unit_price": "199.99",
+        "created_at": "2025-09-09T11:21:18.857191",
+        "updated_at": "2025-09-09T11:21:18.857191"
+      },
+      {
+        "id": "1d574483-b4d5-450f-9e64-8316732ec1dd",
+        "product": {
+          "id": "97d374dd-35a5-47f4-9b3e-5188e55b16c7",
+          "sku": "ULTRA-TEST-Bl1Y",
+          "name": "Notebook Dell Inspiron 15 - EDITADO",
+          "unit_price": "2649.99",
+          "unit": "pcs",
+          "stock_quantity": 14
+        },
+        "quantity": 2,
+        "unit_price": "2649.99",
+        "created_at": "2025-09-09T11:21:18.865277",
+        "updated_at": "2025-09-09T11:21:18.865277"
+      }
+    ],
+    "created_at": "2025-09-09T11:21:18.830168",
+    "updated_at": "2025-09-09T11:21:18.865619"
+  },
+  {
+    "id": "40a3075f-7a6e-4dcb-9537-406fa622f68a",
+    "company": {
+      "id": "9a004ff5-0add-48e7-9721-e684a377059e",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "13c38def-e1c9-4d9f-bea3-d715cc05bc55",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 49
+        },
+        "quantity": 4,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:21:18.868070",
+        "updated_at": "2025-09-09T11:21:18.868070"
+      },
+      {
+        "id": "61ecf97c-8dbf-4300-849b-db3a9372292b",
+        "product": {
+          "id": "97d374dd-35a5-47f4-9b3e-5188e55b16c7",
+          "sku": "ULTRA-TEST-Bl1Y",
+          "name": "Notebook Dell Inspiron 15 - EDITADO",
+          "unit_price": "2649.99",
+          "unit": "pcs",
+          "stock_quantity": 12
+        },
+        "quantity": 2,
+        "unit_price": "2649.99",
+        "created_at": "2025-09-09T11:21:18.869957",
+        "updated_at": "2025-09-09T11:21:18.869957"
+      }
+    ],
+    "created_at": "2025-09-09T11:21:18.832562",
+    "updated_at": "2025-09-09T11:21:18.870211"
+  },
+  {
+    "id": "1c02df66-9e56-4ee4-b507-677e308481b2",
+    "company": {
+      "id": "4271feca-4727-405b-8473-b4ea06deb4cc",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "bf439432-5502-450a-9a02-5c69639c3c85",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 44
+        },
+        "quantity": 5,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:21:18.871601",
+        "updated_at": "2025-09-09T11:21:18.871601"
+      },
+      {
+        "id": "e8ab83d6-5e0b-426a-bbf2-f5bdb7bcdd91",
+        "product": {
+          "id": "97d374dd-35a5-47f4-9b3e-5188e55b16c7",
+          "sku": "ULTRA-TEST-Bl1Y",
+          "name": "Notebook Dell Inspiron 15 - EDITADO",
+          "unit_price": "2649.99",
+          "unit": "pcs",
+          "stock_quantity": 9
+        },
+        "quantity": 3,
+        "unit_price": "2649.99",
+        "created_at": "2025-09-09T11:21:18.873376",
+        "updated_at": "2025-09-09T11:21:18.873376"
+      }
+    ],
+    "created_at": "2025-09-09T11:21:18.834382",
+    "updated_at": "2025-09-09T11:21:18.873647"
+  },
+  {
+    "id": "61863a60-517d-4897-aee3-7619a07aaafb",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:21:18.880018",
+    "updated_at": "2025-09-09T11:21:18.880019"
+  },
+  {
+    "id": "8a6f3fbb-9faa-4c13-a3d9-c7ff3ac1a844",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "7bf145bd-81d6-400b-83e9-7d6cd386c27f",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 42
+        },
+        "quantity": 2,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:21:31.503668",
+        "updated_at": "2025-09-09T11:21:31.503668"
+      },
+      {
+        "id": "ea96f54d-9e12-466e-9849-31b1fd59ceef",
+        "product": {
+          "id": "97d374dd-35a5-47f4-9b3e-5188e55b16c7",
+          "sku": "ULTRA-TEST-Bl1Y",
+          "name": "Notebook Dell Inspiron 15 - EDITADO",
+          "unit_price": "2649.99",
+          "unit": "pcs",
+          "stock_quantity": 5
+        },
+        "quantity": 4,
+        "unit_price": "2649.99",
+        "created_at": "2025-09-09T11:21:31.506422",
+        "updated_at": "2025-09-09T11:21:31.506422"
+      }
+    ],
+    "created_at": "2025-09-09T11:21:31.497642",
+    "updated_at": "2025-09-09T11:21:31.506824"
+  },
+  {
+    "id": "ff6a077a-4486-4e10-9548-5b4e93fa28be",
+    "company": {
+      "id": "9a004ff5-0add-48e7-9721-e684a377059e",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "a3f557ef-0f31-4c9c-bfe0-8df15ad255f0",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 38
+        },
+        "quantity": 4,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:21:31.508793",
+        "updated_at": "2025-09-09T11:21:31.508793"
+      },
+      {
+        "id": "dd78e49e-9a33-4c5c-b7d0-26ae1465ee21",
+        "product": {
+          "id": "3a86c33d-c36d-4cbb-9d20-79a00bb2a1af",
+          "sku": "AUTO-TEST-001",
+          "name": "Produto Teste Automatizado",
+          "unit_price": "199.99",
+          "unit": "pcs",
+          "stock_quantity": 1
+        },
+        "quantity": 1,
+        "unit_price": "199.99",
+        "created_at": "2025-09-09T11:21:31.511048",
+        "updated_at": "2025-09-09T11:21:31.511049"
+      },
+      {
+        "id": "f81d6301-1205-4243-a5d6-6fe747cabec9",
+        "product": {
+          "id": "97d374dd-35a5-47f4-9b3e-5188e55b16c7",
+          "sku": "ULTRA-TEST-Bl1Y",
+          "name": "Notebook Dell Inspiron 15 - EDITADO",
+          "unit_price": "2649.99",
+          "unit": "pcs",
+          "stock_quantity": 3
+        },
+        "quantity": 2,
+        "unit_price": "2649.99",
+        "created_at": "2025-09-09T11:21:31.513570",
+        "updated_at": "2025-09-09T11:21:31.513571"
+      }
+    ],
+    "created_at": "2025-09-09T11:21:31.499599",
+    "updated_at": "2025-09-09T11:21:31.513940"
+  },
+  {
+    "id": "f123ee13-0779-48ce-8836-f1a9f61f5ee1",
+    "company": {
+      "id": "4271feca-4727-405b-8473-b4ea06deb4cc",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "5fd94745-89dd-47a0-a2a0-b0f28109a8f3",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 36
+        },
+        "quantity": 2,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:21:31.515748",
+        "updated_at": "2025-09-09T11:21:31.515748"
+      },
+      {
+        "id": "52cd84af-f6ea-45fa-bd71-cdca018e6be7",
+        "product": {
+          "id": "3a86c33d-c36d-4cbb-9d20-79a00bb2a1af",
+          "sku": "AUTO-TEST-001",
+          "name": "Produto Teste Automatizado",
+          "unit_price": "199.99",
+          "unit": "pcs",
+          "stock_quantity": 0
+        },
+        "quantity": 1,
+        "unit_price": "199.99",
+        "created_at": "2025-09-09T11:21:31.517805",
+        "updated_at": "2025-09-09T11:21:31.517805"
+      },
+      {
+        "id": "9c572e26-0f02-4f05-8cc3-5ea0c050f897",
+        "product": {
+          "id": "97d374dd-35a5-47f4-9b3e-5188e55b16c7",
+          "sku": "ULTRA-TEST-Bl1Y",
+          "name": "Notebook Dell Inspiron 15 - EDITADO",
+          "unit_price": "2649.99",
+          "unit": "pcs",
+          "stock_quantity": 1
+        },
+        "quantity": 2,
+        "unit_price": "2649.99",
+        "created_at": "2025-09-09T11:21:31.519859",
+        "updated_at": "2025-09-09T11:21:31.519860"
+      }
+    ],
+    "created_at": "2025-09-09T11:21:31.501496",
+    "updated_at": "2025-09-09T11:21:31.520185"
+  },
+  {
+    "id": "94ecd680-5579-414d-b906-bc3d9a85d20f",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:21:31.523593",
+    "updated_at": "2025-09-09T11:21:31.523594"
+  },
+  {
+    "id": "dbaa9240-3d38-4108-95fa-db6fafcddd23",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "617490e7-7c88-421b-92bf-518a1172803b",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 31
+        },
+        "quantity": 5,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:21:43.774987",
+        "updated_at": "2025-09-09T11:21:43.774988"
+      }
+    ],
+    "created_at": "2025-09-09T11:21:43.768156",
+    "updated_at": "2025-09-09T11:21:43.775429"
+  },
+  {
+    "id": "fcc494cb-a0df-4b5d-a7f7-8d8443b55ccd",
+    "company": {
+      "id": "9a004ff5-0add-48e7-9721-e684a377059e",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "68564ec1-4e7a-49a7-bdc3-7440b72dcc79",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 27
+        },
+        "quantity": 4,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:21:43.778525",
+        "updated_at": "2025-09-09T11:21:43.778526"
+      }
+    ],
+    "created_at": "2025-09-09T11:21:43.770393",
+    "updated_at": "2025-09-09T11:21:43.778965"
+  },
+  {
+    "id": "26b69ae3-46c5-486b-b9b1-4b40f3d91d91",
+    "company": {
+      "id": "4271feca-4727-405b-8473-b4ea06deb4cc",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "a65aba18-7edf-4c72-a4f0-224da6376664",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 22
+        },
+        "quantity": 5,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:21:43.781775",
+        "updated_at": "2025-09-09T11:21:43.781776"
+      }
+    ],
+    "created_at": "2025-09-09T11:21:43.772575",
+    "updated_at": "2025-09-09T11:21:43.782165"
+  },
+  {
+    "id": "7d90bb5d-abca-40c2-aeb0-cf5178a0f164",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:21:43.786876",
+    "updated_at": "2025-09-09T11:21:43.786876"
+  },
+  {
+    "id": "69797a28-013d-49ef-a231-579f4b6fd9e4",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "db48415b-000a-4653-be13-afa509ba7161",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 17
+        },
+        "quantity": 5,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:21:56.227587",
+        "updated_at": "2025-09-09T11:21:56.227587"
+      }
+    ],
+    "created_at": "2025-09-09T11:21:56.220639",
+    "updated_at": "2025-09-09T11:21:56.228169"
+  },
+  {
+    "id": "3ddeca86-21fe-48d7-a468-c9383de93eb3",
+    "company": {
+      "id": "9a004ff5-0add-48e7-9721-e684a377059e",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "384d6927-b366-4005-bc26-1d98ef09f8ec",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 13
+        },
+        "quantity": 4,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:21:56.231186",
+        "updated_at": "2025-09-09T11:21:56.231186"
+      }
+    ],
+    "created_at": "2025-09-09T11:21:56.223033",
+    "updated_at": "2025-09-09T11:21:56.231669"
+  },
+  {
+    "id": "cccbcdee-c776-4431-b74f-c1633fe1be06",
+    "company": {
+      "id": "4271feca-4727-405b-8473-b4ea06deb4cc",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "43a80a63-102f-4d26-a402-d102744f478b",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 8
+        },
+        "quantity": 5,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:21:56.234584",
+        "updated_at": "2025-09-09T11:21:56.234585"
+      },
+      {
+        "id": "12b3043f-06b0-4e37-8996-815107d36032",
+        "product": {
+          "id": "97d374dd-35a5-47f4-9b3e-5188e55b16c7",
+          "sku": "ULTRA-TEST-Bl1Y",
+          "name": "Notebook Dell Inspiron 15 - EDITADO",
+          "unit_price": "2649.99",
+          "unit": "pcs",
+          "stock_quantity": 0
+        },
+        "quantity": 1,
+        "unit_price": "2649.99",
+        "created_at": "2025-09-09T11:21:56.237427",
+        "updated_at": "2025-09-09T11:21:56.237427"
+      }
+    ],
+    "created_at": "2025-09-09T11:21:56.225085",
+    "updated_at": "2025-09-09T11:21:56.237869"
+  },
+  {
+    "id": "b6c1bf9c-0b83-48bb-8cf7-d26ff50f2f84",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:21:56.241973",
+    "updated_at": "2025-09-09T11:21:56.241973"
+  },
+  {
+    "id": "d74daaa4-4a95-473e-ac65-1e9f38045cf0",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "95835488-cc6f-42c2-ae1a-66450e99c977",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 5
+        },
+        "quantity": 3,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:22:08.321780",
+        "updated_at": "2025-09-09T11:22:08.321780"
+      }
+    ],
+    "created_at": "2025-09-09T11:22:08.315028",
+    "updated_at": "2025-09-09T11:22:08.322289"
+  },
+  {
+    "id": "da3d2e02-555d-4a96-82ff-3ec3e14689ff",
+    "company": {
+      "id": "9a004ff5-0add-48e7-9721-e684a377059e",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "755534d4-4991-4299-961d-fe007f5bb745",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 3
+        },
+        "quantity": 2,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:22:08.325355",
+        "updated_at": "2025-09-09T11:22:08.325356"
+      }
+    ],
+    "created_at": "2025-09-09T11:22:08.317349",
+    "updated_at": "2025-09-09T11:22:08.325823"
+  },
+  {
+    "id": "055330f1-a520-467a-b390-52e99f132c31",
+    "company": {
+      "id": "4271feca-4727-405b-8473-b4ea06deb4cc",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "a513aa16-d54b-4e07-bfd0-f3dc4d985b59",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 1
+        },
+        "quantity": 2,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:22:08.328894",
+        "updated_at": "2025-09-09T11:22:08.328894"
+      }
+    ],
+    "created_at": "2025-09-09T11:22:08.319460",
+    "updated_at": "2025-09-09T11:22:08.329456"
+  },
+  {
+    "id": "371f4c8f-bbab-4946-ba7f-5cc43fbc676f",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:22:08.334645",
+    "updated_at": "2025-09-09T11:22:08.334645"
+  },
+  {
+    "id": "1a055763-2ca6-4140-948f-173ff83c2efe",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:22:20.805324",
+    "updated_at": "2025-09-09T11:22:20.805325"
+  },
+  {
+    "id": "b21fd199-46c5-42f6-a751-e384bd097dcc",
+    "company": {
+      "id": "9a004ff5-0add-48e7-9721-e684a377059e",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:22:20.807744",
+    "updated_at": "2025-09-09T11:22:20.807745"
+  },
+  {
+    "id": "9d53e49e-e09f-4205-910b-8aaa4d06c2ed",
+    "company": {
+      "id": "4271feca-4727-405b-8473-b4ea06deb4cc",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:22:20.810131",
+    "updated_at": "2025-09-09T11:22:20.810131"
+  },
+  {
+    "id": "e392b93f-13ec-4443-979b-94d7f21c1e08",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:22:20.819198",
+    "updated_at": "2025-09-09T11:22:20.819198"
+  },
+  {
+    "id": "827b53ce-24fe-458a-9c36-f2036525289e",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:22:33.173385",
+    "updated_at": "2025-09-09T11:22:33.173385"
+  },
+  {
+    "id": "1466466d-6eb9-45d5-922d-4c83a1e962d3",
+    "company": {
+      "id": "9a004ff5-0add-48e7-9721-e684a377059e",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:22:33.175945",
+    "updated_at": "2025-09-09T11:22:33.175946"
+  },
+  {
+    "id": "5596bfc5-7da2-46c9-bfe1-3ac2e56ab1d6",
+    "company": {
+      "id": "4271feca-4727-405b-8473-b4ea06deb4cc",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:22:33.178361",
+    "updated_at": "2025-09-09T11:22:33.178361"
+  },
+  {
+    "id": "261cf001-1fe4-4162-a3a3-53a430c56d50",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:22:33.187337",
+    "updated_at": "2025-09-09T11:22:33.187338"
+  },
+  {
+    "id": "739ac783-ce50-484d-9186-4f407741fdfe",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "9e96e12c-01f1-4b1b-b2c9-faebad34c7c6",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 0
+        },
+        "quantity": 1,
+        "unit_price": "99.99",
+        "created_at": "2025-09-09T11:22:45.398087",
+        "updated_at": "2025-09-09T11:22:45.398088"
+      }
+    ],
+    "created_at": "2025-09-09T11:22:45.389854",
+    "updated_at": "2025-09-09T11:22:45.398694"
+  },
+  {
+    "id": "4322f26e-dc95-4814-872f-9a6d2ee5aa9d",
+    "company": {
+      "id": "9a004ff5-0add-48e7-9721-e684a377059e",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:22:45.392485",
+    "updated_at": "2025-09-09T11:22:45.392486"
+  },
+  {
+    "id": "5b6ff441-96f7-490c-9d73-77f097e747e7",
+    "company": {
+      "id": "4271feca-4727-405b-8473-b4ea06deb4cc",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:22:45.395054",
+    "updated_at": "2025-09-09T11:22:45.395054"
+  },
+  {
+    "id": "37e003c2-bb0c-40bf-80f1-f69306b1fb51",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:22:45.407468",
+    "updated_at": "2025-09-09T11:22:45.407468"
+  },
+  {
+    "id": "25dc7128-def1-4d21-a76b-7c8fce420e2a",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:27:02.902222",
+    "updated_at": "2025-09-09T11:27:02.902222"
+  },
+  {
+    "id": "dd58e6f0-4746-445a-af65-5136cf8baa28",
+    "company": {
+      "id": "9a004ff5-0add-48e7-9721-e684a377059e",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:27:02.905421",
+    "updated_at": "2025-09-09T11:27:02.905422"
+  },
+  {
+    "id": "07456060-135c-4010-ba32-543701830874",
+    "company": {
+      "id": "4271feca-4727-405b-8473-b4ea06deb4cc",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:27:02.907923",
+    "updated_at": "2025-09-09T11:27:02.907923"
+  },
+  {
+    "id": "3ecf6681-c68d-4867-8a95-be624ff1f19b",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:27:02.917491",
+    "updated_at": "2025-09-09T11:27:02.917491"
+  },
+  {
+    "id": "9e3ee2bf-7481-4797-8e63-8d92c2e8ed9a",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:29:09.290114",
+    "updated_at": "2025-09-09T11:29:09.290115"
+  },
+  {
+    "id": "fca06076-b315-4514-b59f-ee174569cb25",
+    "company": {
+      "id": "9a004ff5-0add-48e7-9721-e684a377059e",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:29:09.293044",
+    "updated_at": "2025-09-09T11:29:09.293045"
+  },
+  {
+    "id": "ece8c5eb-cc38-42fa-affe-ba4de57c5263",
+    "company": {
+      "id": "4271feca-4727-405b-8473-b4ea06deb4cc",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:29:09.295670",
+    "updated_at": "2025-09-09T11:29:09.295670"
+  },
+  {
+    "id": "2b4d109d-5aee-408e-9f66-8392513ae7e9",
+    "company": {
+      "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+      "name": "Empresa Editada Automaticamente",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [],
+    "created_at": "2025-09-09T11:29:09.305473",
+    "updated_at": "2025-09-09T11:29:09.305473"
   }
 ]

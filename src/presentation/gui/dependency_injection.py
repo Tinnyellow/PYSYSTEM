@@ -11,7 +11,7 @@ from ...domain.repositories.sales_order_repository import SalesOrderRepository
 
 # Domain services
 from ...domain.services.address_lookup_service import AddressLookupService
-from ...domain.services.excel_processing_service import ExcelProcessingService
+from ...domain.services.excel_processing_service import ExcelProcessingService as ExcelProcessingServiceInterface
 from ...domain.services.report_generation_service import ReportGenerationService
 
 # Infrastructure implementations
@@ -44,7 +44,7 @@ class DependencyContainer:
         self._sales_order_repository: Optional[SalesOrderRepository] = None
         
         self._address_lookup_service: Optional[AddressLookupService] = None
-        self._excel_processing_service: Optional[ExcelProcessingService] = None
+        self._excel_processing_service: Optional[ExcelProcessingServiceInterface] = None
         self._report_generation_service: Optional[ReportGenerationService] = None
         self._brasilapi_service: Optional[BrasilApiService] = None
         
@@ -82,7 +82,7 @@ class DependencyContainer:
             self._address_lookup_service = BrasilApiAddressLookupService()
         return self._address_lookup_service
     
-    def get_excel_processing_service(self) -> ExcelProcessingService:
+    def get_excel_processing_service(self) -> ExcelProcessingServiceInterface:
         """Get Excel processing service instance."""
         if self._excel_processing_service is None:
             self._excel_processing_service = PandasExcelProcessingService()

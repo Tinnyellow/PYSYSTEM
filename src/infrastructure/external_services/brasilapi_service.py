@@ -100,6 +100,18 @@ class BrasilApiService:
             self.logger.error(f"Unexpected error in CNPJ validation: {e}")
             return None
     
+    def get_cnpj_info(self, cnpj: str) -> Dict[str, Any]:
+        """
+        Alias for validate_cnpj method for compatibility.
+        
+        Args:
+            cnpj: CNPJ number to validate
+            
+        Returns:
+            Dictionary with CNPJ information or None if not found
+        """
+        return self.validate_cnpj(cnpj)
+    
     def get_banks(self) -> List[Dict[str, Any]]:
         """Get list of all Brazilian banks."""
         try:
