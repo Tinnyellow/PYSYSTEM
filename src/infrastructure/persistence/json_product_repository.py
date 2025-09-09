@@ -101,10 +101,17 @@ class JsonProductRepository(ProductRepository):
         
         return None
     
+    def get_by_id(self, entity_id: str) -> Optional[Product]:
+        """Get a product by its ID (alias for find_by_id)."""
+        return self.find_by_id(entity_id)
+    
     def find_all(self) -> List[Product]:
         """Find all products."""
-        data = self._load_data()
-        return [self._dict_to_entity(item) for item in data]
+        return [self._dict_to_entity(item) for item in self._load_data()]
+    
+    def get_all(self) -> List[Product]:
+        """Get all products (alias for find_all)."""
+        return self.find_all()
     
     def update(self, entity: Product) -> Product:
         """Update a product entity."""

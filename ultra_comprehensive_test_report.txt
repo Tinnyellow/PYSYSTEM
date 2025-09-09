@@ -1,152 +1,146 @@
 RELATÓRIO ULTRA COMPLETO - TESTES AUTOMATIZADOS PYSYSTEM
 ======================================================================
 
-Data/Hora: 2025-09-09 11:29:12
-Duração: 5.58 segundos
-Total de testes: 113
-Sucessos: 93
-Falhas: 20
-Taxa de sucesso: 82.3%
-Status: ⚠️  REGULAR - Sistema precisa de correções
+Data/Hora: 2025-09-09 12:10:50
+Duração: 5.23 segundos
+Total de testes: 126
+Sucessos: 125
+Falhas: 1
+Taxa de sucesso: 99.2%
+Status: 🎉 EXCELENTE - Sistema altamente estável
 
 ENTIDADES CRIADAS:
-Empresas: 0
+Empresas: 3
 Produtos: 5
 Pedidos: 3
 
 ERROS CRÍTICOS:
- 1. Criar empresa 1: Invalid CNPJ number
- 2. Criar empresa 2: Invalid CNPJ number
- 3. Criar empresa 3: Invalid CNPJ number
- 4. Atualizar estoque ULTRA-TEST-eKou: Falha na atualização
- 5. Atualizar estoque ULTRA-TEST-Urbk: Falha na atualização
- 6. Operações de busca: 'function' object has no attribute 'execute'
- 7. Adicionar item 1 ao pedido 1: Insufficient stock for product 'TEST-001'. Requested: 4, Available: 0
- 8. Adicionar item 2 ao pedido 1: Insufficient stock for product 'AUTO-TEST-001'. Requested: 4, Available: 0
- 9. Adicionar item 3 ao pedido 1: Insufficient stock for product 'ULTRA-TEST-Bl1Y'. Requested: 2, Available: 0
-10. Adicionar item 1 ao pedido 2: Insufficient stock for product 'TEST-001'. Requested: 4, Available: 0
-11. Adicionar item 2 ao pedido 2: Insufficient stock for product 'AUTO-TEST-001'. Requested: 2, Available: 0
-12. Adicionar item 3 ao pedido 2: Insufficient stock for product 'ULTRA-TEST-Bl1Y'. Requested: 4, Available: 0
-13. Adicionar item 1 ao pedido 3: Insufficient stock for product 'TEST-001'. Requested: 4, Available: 0
-14. Adicionar item 2 ao pedido 3: Insufficient stock for product 'AUTO-TEST-001'. Requested: 4, Available: 0
-15. Adicionar item 3 ao pedido 3: Insufficient stock for product 'ULTRA-TEST-Bl1Y'. Requested: 3, Available: 0
-16. BrasilAPI - CEP 40070-110: Resultado inválido
-17. Enhancement - NCM Codes: Nenhum código encontrado
-18. Redimensionar para 800x600: Obtido: 1024x768
-19. Redimensionar para 1000x700: Obtido: 1024x768
-20. Redimensionar para 1400x900: Obtido: 1400x809
+ 1. Adicionar item 1 ao pedido 3: Insufficient stock for product 'TEST-001'. Requested: 4, Available: 1
 
 LOG COMPLETO:
-  1. [11:29:07.255] ✅ PASS - Componente notebook | Encontrado
-  2. [11:29:07.255] ✅ PASS - Componente company_frame | Encontrado
-  3. [11:29:07.255] ✅ PASS - Componente product_frame | Encontrado
-  4. [11:29:07.255] ✅ PASS - Componente sales_order_frame | Encontrado
-  5. [11:29:07.255] ✅ PASS - Componente status_bar | Encontrado
-  6. [11:29:07.255] ✅ PASS - Componente menu_bar | Encontrado
-  7. [11:29:07.255] ✅ PASS - Contagem de abas | 3 abas encontradas
-  8. [11:29:07.255] ✅ PASS - Aba 1 | '🏢 Companies'
-  9. [11:29:07.255] ✅ PASS - Aba 2 | '📦 Products'
- 10. [11:29:07.255] ✅ PASS - Aba 3 | '📊 Sales Orders'
- 11. [11:29:07.255] ✅ PASS - Setup GUI Ultra Completo | Todos os componentes carregados
- 12. [11:29:09.261] ✅ PASS - Listagem inicial empresas | 8 empresas
- 13. [11:29:09.262] ❌ FAIL - Criar empresa 1 | Invalid CNPJ number
- 14. [11:29:09.262] ❌ FAIL - Criar empresa 2 | Invalid CNPJ number
- 15. [11:29:09.262] ❌ FAIL - Criar empresa 3 | Invalid CNPJ number
- 16. [11:29:09.262] ✅ PASS - Listagem após criação | 8 empresas total
- 17. [11:29:09.263] ✅ PASS - Validação dados inválidos 1 | Validação rejeitou dados inválidos
- 18. [11:29:09.263] ✅ PASS - Validação dados inválidos 2 | Validação rejeitou dados inválidos
- 19. [11:29:09.263] ✅ PASS - Validação dados inválidos 3 | Validação rejeitou dados inválidos
- 20. [11:29:09.263] ✅ PASS - Validação dados inválidos 4 | Validação rejeitou dados inválidos
- 21. [11:29:09.265] ✅ PASS - Listagem inicial produtos | 67 produtos
- 22. [11:29:09.268] ✅ PASS - Criar produto 1 | SKU: ULTRA-TEST-eKou, Nome: Notebook Dell Inspiron 15
- 23. [11:29:09.270] ✅ PASS - Criar produto 2 | SKU: ULTRA-TEST-Urbk, Nome: Mouse Wireless Logitech
- 24. [11:29:09.271] ✅ PASS - Criar produto 3 | SKU: ULTRA-TEST-l5Y9, Nome: Teclado Mecânico RGB
- 25. [11:29:09.273] ✅ PASS - Criar produto 4 | SKU: ULTRA-TEST-xBwb, Nome: Monitor 24" Full HD
- 26. [11:29:09.274] ✅ PASS - Criar produto 5 | SKU: ULTRA-TEST-mKSm, Nome: Cabo HDMI 2m
- 27. [11:29:09.276] ✅ PASS - Listagem após criação produtos | 72 produtos total
- 28. [11:29:09.276] ✅ PASS - Buscar produto ULTRA-TEST-eKou por ID | Encontrado
- 29. [11:29:09.277] ✅ PASS - Buscar produto ULTRA-TEST-eKou por SKU | Encontrado
- 30. [11:29:09.277] ✅ PASS - Buscar produto ULTRA-TEST-Urbk por ID | Encontrado
- 31. [11:29:09.278] ✅ PASS - Buscar produto ULTRA-TEST-Urbk por SKU | Encontrado
- 32. [11:29:09.278] ✅ PASS - Buscar produto ULTRA-TEST-l5Y9 por ID | Encontrado
- 33. [11:29:09.278] ✅ PASS - Buscar produto ULTRA-TEST-l5Y9 por SKU | Encontrado
- 34. [11:29:09.279] ✅ PASS - Buscar produto ULTRA-TEST-xBwb por ID | Encontrado
- 35. [11:29:09.279] ✅ PASS - Buscar produto ULTRA-TEST-xBwb por SKU | Encontrado
- 36. [11:29:09.280] ✅ PASS - Buscar produto ULTRA-TEST-mKSm por ID | Encontrado
- 37. [11:29:09.280] ✅ PASS - Buscar produto ULTRA-TEST-mKSm por SKU | Encontrado
- 38. [11:29:09.281] ✅ PASS - Editar produto 1 | Preço: 2649.99, Estoque: 60
- 39. [11:29:09.282] ✅ PASS - Editar produto 2 | Preço: 139.90, Estoque: 210
- 40. [11:29:09.283] ✅ PASS - Editar produto 3 | Preço: 349.99, Estoque: 85
- 41. [11:29:09.284] ✅ PASS - Editar produto 4 | Preço: 949.00, Estoque: 40
- 42. [11:29:09.285] ✅ PASS - Editar produto 5 | Preço: 75.90, Estoque: 510
- 43. [11:29:09.285] ❌ FAIL - Atualizar estoque ULTRA-TEST-eKou | Falha na atualização
- 44. [11:29:09.285] ❌ FAIL - Atualizar estoque ULTRA-TEST-Urbk | Falha na atualização
- 45. [11:29:09.285] ❌ FAIL - Operações de busca | 'function' object has no attribute 'execute'
- 46. [11:29:09.285] ✅ PASS - Validação produto inválido 1 | Validação rejeitou dados inválidos
- 47. [11:29:09.285] ✅ PASS - Validação produto inválido 2 | Validação rejeitou dados inválidos
- 48. [11:29:09.285] ✅ PASS - Validação produto inválido 3 | Validação rejeitou dados inválidos
- 49. [11:29:09.285] ✅ PASS - Validação produto inválido 4 | Validação rejeitou dados inválidos
- 50. [11:29:09.286] ✅ PASS - Preparação pedidos | 8 empresas, 72 produtos
- 51. [11:29:09.289] ✅ PASS - Listagem inicial pedidos | 55 pedidos
- 52. [11:29:09.292] ✅ PASS - Criar pedido 1 | ID: 9e3ee2bf-7481-4797-8e63-8d92c2e8ed9a, Empresa: Empresa Editada Automaticamente
- 53. [11:29:09.295] ✅ PASS - Criar pedido 2 | ID: fca06076-b315-4514-b59f-ee174569cb25, Empresa: Test Company Ltda
- 54. [11:29:09.298] ✅ PASS - Criar pedido 3 | ID: ece8c5eb-cc38-42fa-affe-ba4de57c5263, Empresa: Test Company Ltda
- 55. [11:29:09.298] ❌ FAIL - Adicionar item 1 ao pedido 1 | Insufficient stock for product 'TEST-001'. Requested: 4, Available: 0
- 56. [11:29:09.299] ❌ FAIL - Adicionar item 2 ao pedido 1 | Insufficient stock for product 'AUTO-TEST-001'. Requested: 4, Available: 0
- 57. [11:29:09.299] ❌ FAIL - Adicionar item 3 ao pedido 1 | Insufficient stock for product 'ULTRA-TEST-Bl1Y'. Requested: 2, Available: 0
- 58. [11:29:09.300] ❌ FAIL - Adicionar item 1 ao pedido 2 | Insufficient stock for product 'TEST-001'. Requested: 4, Available: 0
- 59. [11:29:09.300] ❌ FAIL - Adicionar item 2 ao pedido 2 | Insufficient stock for product 'AUTO-TEST-001'. Requested: 2, Available: 0
- 60. [11:29:09.301] ❌ FAIL - Adicionar item 3 ao pedido 2 | Insufficient stock for product 'ULTRA-TEST-Bl1Y'. Requested: 4, Available: 0
- 61. [11:29:09.301] ❌ FAIL - Adicionar item 1 ao pedido 3 | Insufficient stock for product 'TEST-001'. Requested: 4, Available: 0
- 62. [11:29:09.301] ❌ FAIL - Adicionar item 2 ao pedido 3 | Insufficient stock for product 'AUTO-TEST-001'. Requested: 4, Available: 0
- 63. [11:29:09.302] ❌ FAIL - Adicionar item 3 ao pedido 3 | Insufficient stock for product 'ULTRA-TEST-Bl1Y'. Requested: 3, Available: 0
- 64. [11:29:09.302] ✅ PASS - Buscar pedido 1 | Encontrado com 0 itens
- 65. [11:29:09.302] ✅ PASS - Buscar pedido 2 | Encontrado com 0 itens
- 66. [11:29:09.303] ✅ PASS - Buscar pedido 3 | Encontrado com 0 itens
- 67. [11:29:09.305] ✅ PASS - Listagem final pedidos | 58 pedidos total
- 68. [11:29:09.308] ✅ PASS - Validação quantidade negativa | Quantidade negativa rejeitada
- 69. [11:29:09.308] ✅ PASS - Validação produto inexistente | Produto inexistente rejeitado
- 70. [11:29:09.484] ✅ PASS - BrasilAPI - CEP 01310-100 | São Paulo/SP
- 71. [11:29:09.538] ✅ PASS - BrasilAPI - CEP 20040-020 | Rio de Janeiro/RJ
- 72. [11:29:09.575] ✅ PASS - BrasilAPI - CEP 30112-000 | Belo Horizonte/MG
- 73. [11:29:09.610] ❌ FAIL - BrasilAPI - CEP 40070-110 | Resultado inválido
- 74. [11:29:09.649] ✅ PASS - BrasilAPI - CEP 50030-230 | Recife/PE
- 75. [11:29:09.680] ✅ PASS - BrasilAPI - CEP 60060-440 | Fortaleza/CE
- 76. [11:29:09.885] ✅ PASS - BrasilAPI - CNPJ 11.222.333/0001-81 | Dados retornados
- 77. [11:29:09.918] ✅ PASS - BrasilAPI - CNPJ 00.000.000/0001-91 | Dados retornados
- 78. [11:29:10.033] ✅ PASS - BrasilAPI - CNPJ 11.444.777/0001-61 | Dados retornados
- 79. [11:29:10.066] ✅ PASS - BrasilAPI - Banco 001 | BCO DO BRASIL S.A.
- 80. [11:29:10.095] ✅ PASS - BrasilAPI - Banco 033 | BCO SANTANDER (BRASIL) S.A.
- 81. [11:29:10.123] ✅ PASS - BrasilAPI - Banco 104 | CAIXA ECONOMICA FEDERAL
- 82. [11:29:10.159] ✅ PASS - BrasilAPI - Banco 237 | BCO BRADESCO S.A.
- 83. [11:29:10.190] ✅ PASS - BrasilAPI - Banco 341 | ITAÚ UNIBANCO S.A.
- 84. [11:29:10.228] ✅ PASS - BrasilAPI - Banco 422 | BCO SAFRA S.A.
- 85. [11:29:10.352] ✅ PASS - Enhancement - notebook dell inspiron | Categorias: ['Books & Publications']
- 86. [11:29:10.393] ✅ PASS - Enhancement - mouse gamer rgb | Categorias: ['General Products']
- 87. [11:29:10.433] ✅ PASS - Enhancement - teclado mecânico | Categorias: ['General Products']
- 88. [11:29:10.538] ✅ PASS - Enhancement - monitor 4k | Categorias: ['General Products']
- 89. [11:29:10.577] ✅ PASS - Enhancement - smartphone samsung | Categorias: ['General Products']
- 90. [11:29:10.619] ✅ PASS - Enhancement - tablet ipad | Categorias: ['General Products']
- 91. [11:29:10.654] ✅ PASS - Enhancement - fone bluetooth | Categorias: ['General Products']
- 92. [11:29:10.696] ✅ PASS - Enhancement - impressora laser | Categorias: ['General Products']
- 93. [11:29:10.729] ✅ PASS - Enhancement - roteador wifi | Categorias: ['General Products']
- 94. [11:29:10.765] ✅ PASS - Enhancement - webcam hd | Categorias: ['General Products']
- 95. [11:29:10.796] ❌ FAIL - Enhancement - NCM Codes | Nenhum código encontrado
- 96. [11:29:10.802] ✅ PASS - Arquivo companies.json | Existe e é JSON válido (8 registros)
- 97. [11:29:10.802] ✅ PASS - Estrutura companies.json | Estrutura válida com ID
- 98. [11:29:10.802] ✅ PASS - Arquivo products.json | Existe e é JSON válido (72 registros)
- 99. [11:29:10.802] ✅ PASS - Estrutura products.json | Estrutura válida com ID
-100. [11:29:10.803] ✅ PASS - Arquivo sales_orders.json | Existe e é JSON válido (59 registros)
-101. [11:29:10.803] ✅ PASS - Estrutura sales_orders.json | Estrutura válida com ID
-102. [11:29:10.810] ✅ PASS - Carregamento dados | Empresas: 8, Produtos: 72, Pedidos: 59
-103. [11:29:10.810] ✅ PASS - Integridade referencial | Todas as referências válidas
-104. [11:29:10.814] ✅ PASS - Performance carregamento | 139 registros em 0.004s
-105. [11:29:10.920] ✅ PASS - Navegar aba '🏢 Companies' | Aba 1 selecionada
-106. [11:29:11.241] ✅ PASS - Navegar aba '📦 Products' | Aba 2 selecionada
-107. [11:29:11.367] ✅ PASS - Navegar aba '📊 Sales Orders' | Aba 3 selecionada
-108. [11:29:11.564] ❌ FAIL - Redimensionar para 800x600 | Obtido: 1024x768
-109. [11:29:11.670] ❌ FAIL - Redimensionar para 1000x700 | Obtido: 1024x768
-110. [11:29:11.885] ❌ FAIL - Redimensionar para 1400x900 | Obtido: 1400x809
-111. [11:29:11.960] ✅ PASS - Status bar | Presente e visível
-112. [11:29:11.960] ✅ PASS - Menu principal | Menu configurado
-113. [11:29:12.349] ✅ PASS - Atualizações múltiplas GUI | 5 atualizações executadas
+  1. [12:10:45.427] ✅ PASS - Componente notebook | Encontrado
+  2. [12:10:45.427] ✅ PASS - Componente company_frame | Encontrado
+  3. [12:10:45.427] ✅ PASS - Componente product_frame | Encontrado
+  4. [12:10:45.427] ✅ PASS - Componente sales_order_frame | Encontrado
+  5. [12:10:45.427] ✅ PASS - Componente status_bar | Encontrado
+  6. [12:10:45.427] ✅ PASS - Componente menu_bar | Encontrado
+  7. [12:10:45.427] ✅ PASS - Contagem de abas | 3 abas encontradas
+  8. [12:10:45.427] ✅ PASS - Aba 1 | '🏢 Companies'
+  9. [12:10:45.427] ✅ PASS - Aba 2 | '📦 Products'
+ 10. [12:10:45.427] ✅ PASS - Aba 3 | '📊 Sales Orders'
+ 11. [12:10:45.427] ✅ PASS - Setup GUI Ultra Completo | Todos os componentes carregados
+ 12. [12:10:47.435] ✅ PASS - Listagem inicial empresas | 20 empresas
+ 13. [12:10:47.439] ✅ PASS - Criar empresa 1 | ID: 00d119bd-61c5-4d0e-ba45-f6f1869f6876, Nome: Empresa Teste Alpha Ltda
+ 14. [12:10:47.442] ✅ PASS - Criar empresa 2 | ID: bbde1df5-32cf-429a-b524-fd075eef833f, Nome: Beta Comércio Eireli
+ 15. [12:10:47.444] ✅ PASS - Criar empresa 3 | ID: db1d5998-2941-40ff-924f-ed693679ac22, Nome: Gamma Tecnologia SA
+ 16. [12:10:47.445] ✅ PASS - Listagem após criação | 23 empresas total
+ 17. [12:10:47.446] ✅ PASS - Buscar empresa Empresa Teste Alpha Ltda | Encontrada por ID
+ 18. [12:10:47.447] ✅ PASS - Buscar empresa Beta Comércio Eireli | Encontrada por ID
+ 19. [12:10:47.448] ✅ PASS - Buscar empresa Gamma Tecnologia SA | Encontrada por ID
+ 20. [12:10:47.450] ✅ PASS - Editar empresa 1 | Nome e email atualizados
+ 21. [12:10:47.451] ✅ PASS - Editar empresa 2 | Nome e email atualizados
+ 22. [12:10:47.453] ✅ PASS - Editar empresa 3 | Nome e email atualizados
+ 23. [12:10:47.453] ✅ PASS - Validação dados inválidos 1 | Validação rejeitou dados inválidos
+ 24. [12:10:47.453] ✅ PASS - Validação dados inválidos 2 | Validação rejeitou dados inválidos
+ 25. [12:10:47.454] ✅ PASS - Validação dados inválidos 3 | Validação rejeitou dados inválidos
+ 26. [12:10:47.454] ✅ PASS - Validação dados inválidos 4 | Validação rejeitou dados inválidos
+ 27. [12:10:47.456] ✅ PASS - Listagem inicial produtos | 112 produtos
+ 28. [12:10:47.458] ✅ PASS - Criar produto 1 | SKU: ULTRA-TEST-AKQE, Nome: Notebook Dell Inspiron 15
+ 29. [12:10:47.460] ✅ PASS - Criar produto 2 | SKU: ULTRA-TEST-GVHL, Nome: Mouse Wireless Logitech
+ 30. [12:10:47.461] ✅ PASS - Criar produto 3 | SKU: ULTRA-TEST-vfXm, Nome: Teclado Mecânico RGB
+ 31. [12:10:47.463] ✅ PASS - Criar produto 4 | SKU: ULTRA-TEST-D4nX, Nome: Monitor 24" Full HD
+ 32. [12:10:47.465] ✅ PASS - Criar produto 5 | SKU: ULTRA-TEST-E3Yj, Nome: Cabo HDMI 2m
+ 33. [12:10:47.466] ✅ PASS - Listagem após criação produtos | 117 produtos total
+ 34. [12:10:47.466] ✅ PASS - Buscar produto ULTRA-TEST-AKQE por ID | Encontrado
+ 35. [12:10:47.466] ✅ PASS - Buscar produto ULTRA-TEST-AKQE por SKU | Encontrado
+ 36. [12:10:47.466] ✅ PASS - Buscar produto ULTRA-TEST-GVHL por ID | Encontrado
+ 37. [12:10:47.467] ✅ PASS - Buscar produto ULTRA-TEST-GVHL por SKU | Encontrado
+ 38. [12:10:47.467] ✅ PASS - Buscar produto ULTRA-TEST-vfXm por ID | Encontrado
+ 39. [12:10:47.467] ✅ PASS - Buscar produto ULTRA-TEST-vfXm por SKU | Encontrado
+ 40. [12:10:47.467] ✅ PASS - Buscar produto ULTRA-TEST-D4nX por ID | Encontrado
+ 41. [12:10:47.468] ✅ PASS - Buscar produto ULTRA-TEST-D4nX por SKU | Encontrado
+ 42. [12:10:47.468] ✅ PASS - Buscar produto ULTRA-TEST-E3Yj por ID | Encontrado
+ 43. [12:10:47.468] ✅ PASS - Buscar produto ULTRA-TEST-E3Yj por SKU | Encontrado
+ 44. [12:10:47.470] ✅ PASS - Editar produto 1 | Preço: 2649.99, Estoque: 60
+ 45. [12:10:47.471] ✅ PASS - Editar produto 2 | Preço: 139.90, Estoque: 210
+ 46. [12:10:47.472] ✅ PASS - Editar produto 3 | Preço: 349.99, Estoque: 85
+ 47. [12:10:47.474] ✅ PASS - Editar produto 4 | Preço: 949.00, Estoque: 40
+ 48. [12:10:47.475] ✅ PASS - Editar produto 5 | Preço: 75.90, Estoque: 510
+ 49. [12:10:47.476] ✅ PASS - Atualizar estoque ULTRA-TEST-AKQE | Novo estoque: 18
+ 50. [12:10:47.477] ✅ PASS - Atualizar estoque ULTRA-TEST-GVHL | Novo estoque: 27
+ 51. [12:10:47.478] ✅ PASS - Buscar produtos disponíveis | 117 produtos com estoque
+ 52. [12:10:47.479] ✅ PASS - Busca por termo | 115 produtos encontrados
+ 53. [12:10:47.479] ✅ PASS - Validação produto inválido 1 | Validação rejeitou dados inválidos
+ 54. [12:10:47.479] ✅ PASS - Validação produto inválido 2 | Validação rejeitou dados inválidos
+ 55. [12:10:47.479] ✅ PASS - Validação produto inválido 3 | Validação rejeitou dados inválidos
+ 56. [12:10:47.480] ✅ PASS - Validação produto inválido 4 | Validação rejeitou dados inválidos
+ 57. [12:10:47.481] ✅ PASS - Preparação pedidos | 23 empresas, 117 produtos
+ 58. [12:10:47.484] ✅ PASS - Listagem inicial pedidos | 91 pedidos
+ 59. [12:10:47.488] ✅ PASS - Criar pedido 1 | ID: 36f2874e-3bc5-46be-8712-8af24bfd450c, Empresa: Empresa Editada Automaticamente
+ 60. [12:10:47.492] ✅ PASS - Criar pedido 2 | ID: b5f532e3-1b46-4a37-83f8-fcbec02f7beb, Empresa: Test Company Ltda
+ 61. [12:10:47.495] ✅ PASS - Criar pedido 3 | ID: 7afa4f9a-7473-43ea-87be-3d2333bc89db, Empresa: Test Company Ltda
+ 62. [12:10:47.499] ✅ PASS - Adicionar item 1 ao pedido 1 | Produto: Test Product, Qtd: 2
+ 63. [12:10:47.504] ✅ PASS - Adicionar item 2 ao pedido 1 | Produto: Produto Teste Automatizado, Qtd: 4
+ 64. [12:10:47.509] ✅ PASS - Adicionar item 3 ao pedido 1 | Produto: Notebook Dell Inspiron 15 - EDITADO, Qtd: 5
+ 65. [12:10:47.509] ✅ PASS - Itens adicionados pedido 1 | 3 itens, Total: R$ 14249.89
+ 66. [12:10:47.513] ✅ PASS - Adicionar item 1 ao pedido 2 | Produto: Test Product, Qtd: 3
+ 67. [12:10:47.517] ✅ PASS - Adicionar item 2 ao pedido 2 | Produto: Produto Teste Automatizado, Qtd: 4
+ 68. [12:10:47.521] ✅ PASS - Adicionar item 3 ao pedido 2 | Produto: Notebook Dell Inspiron 15 - EDITADO, Qtd: 4
+ 69. [12:10:47.521] ✅ PASS - Itens adicionados pedido 2 | 3 itens, Total: R$ 11699.89
+ 70. [12:10:47.522] ❌ FAIL - Adicionar item 1 ao pedido 3 | Insufficient stock for product 'TEST-001'. Requested: 4, Available: 1
+ 71. [12:10:47.526] ✅ PASS - Adicionar item 2 ao pedido 3 | Produto: Produto Teste Automatizado, Qtd: 2
+ 72. [12:10:47.530] ✅ PASS - Adicionar item 3 ao pedido 3 | Produto: Notebook Dell Inspiron 15 - EDITADO, Qtd: 4
+ 73. [12:10:47.530] ✅ PASS - Itens adicionados pedido 3 | 2 itens, Total: R$ 10999.94
+ 74. [12:10:47.530] ✅ PASS - Buscar pedido 1 | Encontrado com 3 itens
+ 75. [12:10:47.530] ✅ PASS - Buscar pedido 2 | Encontrado com 3 itens
+ 76. [12:10:47.531] ✅ PASS - Buscar pedido 3 | Encontrado com 2 itens
+ 77. [12:10:47.534] ✅ PASS - Listagem final pedidos | 94 pedidos total
+ 78. [12:10:47.537] ✅ PASS - Validação quantidade negativa | Quantidade negativa rejeitada
+ 79. [12:10:47.538] ✅ PASS - Validação produto inexistente | Produto inexistente rejeitado
+ 80. [12:10:47.641] ✅ PASS - BrasilAPI - CEP 01310-100 | São Paulo/SP
+ 81. [12:10:47.669] ✅ PASS - BrasilAPI - CEP 20040-020 | Rio de Janeiro/RJ
+ 82. [12:10:47.695] ✅ PASS - BrasilAPI - CEP 30112-000 | Belo Horizonte/MG
+ 83. [12:10:47.804] ✅ PASS - BrasilAPI - CEP 40010-000 | Salvador/BA
+ 84. [12:10:47.831] ✅ PASS - BrasilAPI - CEP 50030-230 | Recife/PE
+ 85. [12:10:47.866] ✅ PASS - BrasilAPI - CEP 60060-440 | Fortaleza/CE
+ 86. [12:10:47.918] ✅ PASS - BrasilAPI - CNPJ 11.222.333/0001-81 | Dados retornados
+ 87. [12:10:47.961] ✅ PASS - BrasilAPI - CNPJ 00.000.000/0001-91 | Dados retornados
+ 88. [12:10:47.989] ✅ PASS - BrasilAPI - CNPJ 11.444.777/0001-61 | Dados retornados
+ 89. [12:10:48.018] ✅ PASS - BrasilAPI - Banco 001 | BCO DO BRASIL S.A.
+ 90. [12:10:48.049] ✅ PASS - BrasilAPI - Banco 033 | BCO SANTANDER (BRASIL) S.A.
+ 91. [12:10:48.080] ✅ PASS - BrasilAPI - Banco 104 | CAIXA ECONOMICA FEDERAL
+ 92. [12:10:48.111] ✅ PASS - BrasilAPI - Banco 237 | BCO BRADESCO S.A.
+ 93. [12:10:48.139] ✅ PASS - BrasilAPI - Banco 341 | ITAÚ UNIBANCO S.A.
+ 94. [12:10:48.171] ✅ PASS - BrasilAPI - Banco 422 | BCO SAFRA S.A.
+ 95. [12:10:48.376] ✅ PASS - Enhancement - notebook dell inspiron | Categorias: ['Books & Publications']
+ 96. [12:10:48.412] ✅ PASS - Enhancement - mouse gamer rgb | Categorias: ['General Products']
+ 97. [12:10:48.447] ✅ PASS - Enhancement - teclado mecânico | Categorias: ['General Products']
+ 98. [12:10:48.485] ✅ PASS - Enhancement - monitor 4k | Categorias: ['General Products']
+ 99. [12:10:48.514] ✅ PASS - Enhancement - smartphone samsung | Categorias: ['General Products']
+100. [12:10:48.546] ✅ PASS - Enhancement - tablet ipad | Categorias: ['General Products']
+101. [12:10:48.583] ✅ PASS - Enhancement - fone bluetooth | Categorias: ['General Products']
+102. [12:10:48.616] ✅ PASS - Enhancement - impressora laser | Categorias: ['General Products']
+103. [12:10:48.691] ✅ PASS - Enhancement - roteador wifi | Categorias: ['General Products']
+104. [12:10:48.724] ✅ PASS - Enhancement - webcam hd | Categorias: ['General Products']
+105. [12:10:48.834] ✅ PASS - Enhancement - NCM Codes | 3 códigos encontrados
+106. [12:10:48.834] ✅ PASS - NCM 1 | 8471.30.12 - Máquinas automáticas para processamento de dados, portáteis, de peso inferior ou igual a 10 kg, contendo pelo menos uma unidade central de processamento
+107. [12:10:48.834] ✅ PASS - NCM 2 | 8471.30.19 - Outras máquinas automáticas para processamento de dados, portáteis
+108. [12:10:48.834] ✅ PASS - NCM 3 | 8471.41.10 - Unidades de processamento, digitais, de pequena capacidade
+109. [12:10:48.837] ✅ PASS - Arquivo companies.json | Existe e é JSON válido (23 registros)
+110. [12:10:48.837] ✅ PASS - Estrutura companies.json | Estrutura válida com ID
+111. [12:10:48.837] ✅ PASS - Arquivo products.json | Existe e é JSON válido (117 registros)
+112. [12:10:48.837] ✅ PASS - Estrutura products.json | Estrutura válida com ID
+113. [12:10:48.838] ✅ PASS - Arquivo sales_orders.json | Existe e é JSON válido (95 registros)
+114. [12:10:48.838] ✅ PASS - Estrutura sales_orders.json | Estrutura válida com ID
+115. [12:10:48.846] ✅ PASS - Carregamento dados | Empresas: 23, Produtos: 117, Pedidos: 95
+116. [12:10:48.846] ✅ PASS - Integridade referencial | Todas as referências válidas
+117. [12:10:48.851] ✅ PASS - Performance carregamento | 235 registros em 0.005s
+118. [12:10:48.954] ✅ PASS - Navegar aba '🏢 Companies' | Aba 1 selecionada
+119. [12:10:49.074] ✅ PASS - Navegar aba '📦 Products' | Aba 2 selecionada
+120. [12:10:49.192] ✅ PASS - Navegar aba '📊 Sales Orders' | Aba 3 selecionada
+121. [12:10:49.378] ✅ PASS - Redimensionar para 800x600 | Sistema limitou: 1024x768
+122. [12:10:49.481] ✅ PASS - Redimensionar para 1000x700 | Sistema limitou: 1024x768
+123. [12:10:49.703] ✅ PASS - Redimensionar para 1400x900 | Sistema limitou: 1400x809
+124. [12:10:49.775] ✅ PASS - Status bar | Presente e visível
+125. [12:10:49.775] ✅ PASS - Menu principal | Menu configurado
+126. [12:10:50.175] ✅ PASS - Atualizações múltiplas GUI | 5 atualizações executadas

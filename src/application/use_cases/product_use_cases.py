@@ -310,3 +310,11 @@ class ProductUseCases:
         except Exception as e:
             print(f"Error searching products: {e}")
             return []
+    
+    def get_by_sku(self, sku: str) -> Optional[Product]:
+        """Get product by SKU."""
+        try:
+            return self._product_repository.find_by_sku(sku)
+        except Exception as e:
+            print(f"Error getting product by SKU: {e}")
+            return None

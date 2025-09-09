@@ -34,10 +34,6 @@ class ProductController:
         """Update an existing product."""
         return self.product_use_cases.update.execute(product_id, dto)
     
-    def get_product(self, product_id: str) -> Optional[ProductResponseDTO]:
-        """Get a product by ID."""
-        return self.product_use_cases.get.execute(product_id)
-    
     def get_product_by_sku(self, sku: str) -> Optional[Product]:
         """Get product by SKU."""
         try:
@@ -46,6 +42,11 @@ class ProductController:
             print(f"Error getting product by SKU: {e}")
             return None
 
+    def update_stock(self, product_id: str, new_stock: int) -> bool:
+        """Update product stock quantity."""
+        try:
+            return self.product_use_cases.update_stock(product_id, new_stock)
+        except Exception as e:
     def update_stock(self, product_id: str, new_stock: int) -> bool:
         """Update product stock quantity."""
         try:
@@ -70,6 +71,18 @@ class ProductController:
             print(f"Error searching products: {e}")
             return []
     
+    def get_product(self, product_id: str) -> Optional[ProductResponseDTO]:
+        """Get a product by ID."""
+        return self.product_use_cases.get.execute(product_id)
+    
+    def get_product_by_sku(self, sku: str) -> Optional[ProductResponseDTO]:
+        """Get a product by SKU."""
+        products = self.list_products()
+        for product in products:
+            if product.sku == sku:
+                return product
+        return None
+    
     def list_products(self) -> List[ProductResponseDTO]:
         """List all products."""
         return self.product_use_cases.list.execute()
@@ -77,10 +90,6 @@ class ProductController:
     def search_products_dto(self, query: str) -> List[ProductResponseDTO]:
         """Search products by query and return DTOs."""
         return self.product_use_cases.search.execute(query)
-    
-    def get_available_products_dto(self) -> List[ProductResponseDTO]:
-        """Get products with stock available - returns DTOs."""
-        return self.product_use_cases.get_available.execute()
     
     def import_products_from_excel(self, file_path: str) -> Dict[str, Any]:
         """Import products from Excel file."""
