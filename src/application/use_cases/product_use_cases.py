@@ -74,7 +74,7 @@ class ImportProductsFromExcelUseCase:
         """Import products from Excel file."""
         try:
             # Process Excel file
-            product_data = self._excel_processing_service.process_product_file(file_path)
+            product_data = self._excel_processing_service.read_products_from_excel(file_path)
             
             if not product_data:
                 return ExcelImportResultDTO(
@@ -89,32 +89,15 @@ class ImportProductsFromExcelUseCase:
             imported_products = []
             errors = []
             
-            # Process each product
-            for index, data in enumerate(product_data):
+            # Process each product (product_data is already a list of Product entities)
+            for index, product in enumerate(product_data):
                 try:
-                    # Validate required fields
-                    if not data.get('sku') or not data.get('name'):
-                        errors.append(f"Row {index + 1}: Missing required fields (sku, name)")
-                        continue
-                    
                     # Check for duplicate SKU
-                    if self._product_repository.find_by_sku(data['sku']):
-                        errors.append(f"Row {index + 1}: SKU '{data['sku']}' already exists")
+                    if self._product_repository.find_by_sku(product.sku):
+                        errors.append(f"Row {index + 1}: SKU '{product.sku}' already exists")
                         continue
                     
-                    # Create product entity
-                    product = Product(
-                        sku=data['sku'],
-                        name=data['name'],
-                        unit_price=Decimal(str(data.get('unit_price', '0.00'))),
-                        unit=data.get('unit', 'pcs'),
-                        stock_quantity=int(data.get('stock_quantity', 0)),
-                        description=data.get('description'),
-                        category=data.get('category'),
-                        barcode=data.get('barcode')
-                    )
-                    
-                    # Save product
+                    # Save product (product is already a Product entity)
                     saved_product = self._product_repository.save(product)
                     imported_products.append(_map_product_to_response_dto(saved_product))
                     

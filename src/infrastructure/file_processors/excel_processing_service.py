@@ -17,11 +17,14 @@ class PandasExcelProcessingService(ExcelProcessingService):
     
     def __init__(self):
         """Initialize service with required columns configuration."""
-        self._required_columns = ['SKU', 'Produto', 'PrecoUnit', 'Unidade', 'Estoque']
+        # Aceitar tanto 'PrecoUnit' quanto 'PreçoUnit'
+        self._required_columns = ['SKU', 'Produto', 'Unidade', 'Estoque']
+        self._price_columns = ['PrecoUnit', 'PreçoUnit']  # Aceitar ambos
         self._column_mapping = {
             'SKU': 'sku',
             'Produto': 'name',
             'PrecoUnit': 'unit_price',
+            'PreçoUnit': 'unit_price',
             'Unidade': 'unit',
             'Estoque': 'stock_quantity'
         }
@@ -56,11 +59,19 @@ class PandasExcelProcessingService(ExcelProcessingService):
             
             # Validate structure
             if not self.validate_excel_structure(file_path):
-                missing_columns = set(self._required_columns) - set(df.columns)
-                raise ExcelProcessingException(
-                    f"Missing required columns: {', '.join(missing_columns)}",
-                    file_path
-                )
+                df_temp = pd.read_excel(file_path)
+                missing_columns = set(self._required_columns) - set(df_temp.columns)
+                
+                # Verificar se tem pelo menos uma coluna de preço
+                price_columns_available = [col for col in self._price_columns if col in df_temp.columns]
+                if not price_columns_available:
+                    missing_columns.update(['PrecoUnit ou PreçoUnit'])
+                    
+                if missing_columns:
+                    raise ExcelProcessingException(
+                        f"Missing required columns: {', '.join(missing_columns)}",
+                        file_path
+                    )
             
             # Process rows
             products = []
@@ -111,7 +122,13 @@ class PandasExcelProcessingService(ExcelProcessingService):
             
             # Extract and validate unit price
             try:
-                unit_price_value = row['PrecoUnit']
+                # Tentar primeiro 'PrecoUnit', depois 'PreçoUnit'
+                unit_price_value = None
+                if 'PrecoUnit' in row.index:
+                    unit_price_value = row['PrecoUnit']
+                elif 'PreçoUnit' in row.index:
+                    unit_price_value = row['PreçoUnit']
+                
                 if pd.isna(unit_price_value):
                     raise ValueError("Unit price cannot be empty")
                 
@@ -176,7 +193,11 @@ class PandasExcelProcessingService(ExcelProcessingService):
             
             # Check if all required columns are present
             missing_columns = set(self._required_columns) - set(df.columns)
-            return len(missing_columns) == 0
+            
+            # Check if at least one price column exists
+            price_columns_available = [col for col in self._price_columns if col in df.columns]
+            
+            return len(missing_columns) == 0 and len(price_columns_available) > 0
             
         except Exception:
             return False
