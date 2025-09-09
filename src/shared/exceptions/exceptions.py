@@ -47,6 +47,15 @@ class InsufficientStockException(SalesManagementException):
         super().__init__(message, "INSUFFICIENT_STOCK")
 
 
+class DuplicateSkuException(SalesManagementException):
+    """Exception raised when trying to create a product with duplicate SKU."""
+    
+    def __init__(self, sku: str):
+        message = f"Product with SKU '{sku}' already exists"
+        self.sku = sku
+        super().__init__(message, "DUPLICATE_SKU")
+
+
 class ExcelProcessingException(SalesManagementException):
     """Exception raised during Excel file processing."""
     

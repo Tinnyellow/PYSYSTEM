@@ -782,7 +782,9 @@ class SalesOrderFrame:
         
         # Find and set company
         for value in self.company_combo['values']:
-            if value.startswith(order.company_id):
+            # Check if order is SalesOrderResponseDTO or SalesOrder entity
+            company_id = getattr(order, 'company_id', None) or (order.company.id if hasattr(order, 'company') and order.company else None)
+            if company_id and value.startswith(company_id):
                 self.company_var.set(value)
                 break
         

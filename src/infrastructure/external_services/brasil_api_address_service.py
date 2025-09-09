@@ -9,15 +9,15 @@ import re
 from ...domain.services.address_lookup_service import AddressLookupService
 from ...shared.exceptions.exceptions import AddressLookupException
 from ...shared.utils.config import config
+from .brasilapi_service import BrasilApiService
 
 
 class BrasilApiAddressLookupService(AddressLookupService):
     """Brasil API implementation for address lookup service."""
     
     def __init__(self):
-        """Initialize service with API configuration."""
-        self._base_url = config.brasil_api_base_url
-        self._timeout = 10  # seconds
+        """Initialize service with BrasilAPI service."""
+        self._brasil_api = BrasilApiService()
     
     def lookup_address_by_postal_code(self, postal_code: str) -> Optional[dict]:
         """
@@ -32,48 +32,25 @@ class BrasilApiAddressLookupService(AddressLookupService):
         if not self.is_valid_postal_code(postal_code):
             raise AddressLookupException("Invalid postal code format", postal_code)
         
-        # Clean postal code (remove non-digit characters)
-        clean_postal_code = re.sub(r'\D', '', postal_code)
-        
         try:
-            # Make API request
-            url = f"{self._base_url}/cep/v1/{clean_postal_code}"
-            response = requests.get(url, timeout=self._timeout)
+            # Use BrasilAPI service
+            result = self._brasil_api.get_cep_info(postal_code)
             
-            if response.status_code == 200:
-                data = response.json()
-                
-                # Map Brasil API response to our format
+            if result:
+                # Map BrasilAPI response to our format
                 return {
-                    'street': data.get('street', ''),
-                    'neighborhood': data.get('neighborhood', ''),
-                    'city': data.get('city', ''),
-                    'state': data.get('state', ''),
-                    'postal_code': clean_postal_code
+                    'street': result.get('street', ''),
+                    'neighborhood': result.get('neighborhood', ''),
+                    'city': result.get('city', ''),
+                    'state': result.get('state', ''),
+                    'postal_code': result.get('cep', postal_code)
                 }
-            
-            elif response.status_code == 404:
-                # Postal code not found
-                return None
-            
             else:
-                # Other HTTP errors
-                raise AddressLookupException(
-                    f"API request failed with status {response.status_code}",
-                    postal_code
-                )
-        
-        except requests.exceptions.Timeout:
-            raise AddressLookupException("API request timeout", postal_code)
-        
-        except requests.exceptions.ConnectionError:
-            raise AddressLookupException("API connection error", postal_code)
-        
-        except requests.exceptions.RequestException as e:
-            raise AddressLookupException(f"API request error: {str(e)}", postal_code)
+                # Address not found
+                return None
         
         except Exception as e:
-            raise AddressLookupException(f"Unexpected error: {str(e)}", postal_code)
+            raise AddressLookupException(f"Address lookup error: {str(e)}", postal_code)
     
     def is_valid_postal_code(self, postal_code: str) -> bool:
         """

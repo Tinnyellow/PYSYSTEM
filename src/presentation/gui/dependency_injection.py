@@ -19,6 +19,7 @@ from ...infrastructure.persistence.json_company_repository import JsonCompanyRep
 from ...infrastructure.persistence.json_product_repository import JsonProductRepository
 from ...infrastructure.persistence.json_sales_order_repository import JsonSalesOrderRepository
 from ...infrastructure.external_services.brasil_api_address_service import BrasilApiAddressLookupService
+from ...infrastructure.external_services.brasilapi_service import BrasilApiService
 from ...infrastructure.file_processors.excel_processing_service import PandasExcelProcessingService
 from ...infrastructure.report_generators.pdf_report_service import PdfReportGenerationService
 
@@ -45,6 +46,7 @@ class DependencyContainer:
         self._address_lookup_service: Optional[AddressLookupService] = None
         self._excel_processing_service: Optional[ExcelProcessingService] = None
         self._report_generation_service: Optional[ReportGenerationService] = None
+        self._brasilapi_service: Optional[BrasilApiService] = None
         
         self._company_use_cases: Optional[CompanyUseCases] = None
         self._product_use_cases: Optional[ProductUseCases] = None
@@ -91,6 +93,12 @@ class DependencyContainer:
         if self._report_generation_service is None:
             self._report_generation_service = PdfReportGenerationService()
         return self._report_generation_service
+    
+    def get_brasilapi_service(self) -> BrasilApiService:
+        """Get BrasilAPI service instance."""
+        if self._brasilapi_service is None:
+            self._brasilapi_service = BrasilApiService()
+        return self._brasilapi_service
     
     # Use case factories
     def get_company_use_cases(self) -> CompanyUseCases:

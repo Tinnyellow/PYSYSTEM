@@ -47,6 +47,7 @@ class ProductResponseDTO:
     unit: str
     stock_quantity: int
     display_name: str
+    price: Decimal  # Alias for unit_price compatibility
     description: Optional[str] = None
     category: Optional[str] = None
     barcode: Optional[str] = None
