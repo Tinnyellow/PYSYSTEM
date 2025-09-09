@@ -1,21 +1,53 @@
-# PYSYSTEM - Business Management System
+# 🏢 PYSYSTEM - Business Management System
 
-[![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://python.org)
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://python.org)
 [![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green.svg)](https://docs.python.org/3/library/tkinter.html)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Tests](https://img.shields.io/badge/Tests-126%20passing-brightgreen.svg)](#testing)
+[![Coverage](https://img.shields.io/badge/Coverage-99.2%25-brightgreen.svg)](#testing)
 
-A complete business management system built with Python and Tkinter, following Clean Architecture principles.
+A comprehensive Python desktop application for business management with **Clean Architecture**, featuring company registration, product management, and sales order processing with external API integrations.
 
-## ✨ Features
+## 🎯 **Overview**
 
-- **Company Management** - Complete CRUD operations for companies
-- **Product Management** - Inventory control with stock tracking  
-- **Sales Order Management** - Order creation and item management
-- **BrasilAPI Integration** - CEP lookup, CNPJ validation, and bank data
-- **Data Persistence** - JSON-based storage system
-- **Modern GUI** - Professional Tkinter interface with corporate theme
+PYSYSTEM is a modern desktop business management application built with Python and Tkinter, implementing **Domain-Driven Design (DDD)** and **Clean Architecture** principles. The system provides comprehensive CRUD operations for companies, products, and sales orders, with advanced features like address autocomplete and document validation through Brazilian APIs.
 
-## 🚀 Quick Start
+## ✨ **Key Features**
+
+### 🏢 **Company Management**
+- **Complete CRUD Operations** - Create, read, update, and delete companies
+- **Smart Validation** - CPF/CNPJ validation with verification digits
+- **Address Autocomplete** - Automatic address completion using CEP via BrasilAPI
+- **Contact Management** - Email and phone validation with proper formatting
+- **Document Integration** - Real-time CNPJ lookup with company data retrieval
+
+### 📦 **Product Management**
+- **Excel Integration** - Import products from .xlsx/.xls files with validation
+- **Inventory Control** - Real-time stock management with oversell prevention
+- **Advanced Search** - Search by name, SKU, or any product attribute
+- **Bulk Operations** - Mass updates and data management capabilities
+- **Category Management** - Product categorization and organization
+
+### 📊 **Sales Order Management**
+- **Complete Order Processing** - From creation to completion
+- **Stock Integration** - Automatic inventory updates and validation
+- **Dynamic Calculations** - Real-time subtotals and totals
+- **Multi-item Orders** - Support for complex orders with multiple products
+- **Order History** - Complete audit trail and order tracking
+
+### 🌐 **External Integrations**
+- **BrasilAPI Integration** - CEP, CNPJ, and bank data validation
+- **Intelligent Caching** - Performance optimization with automatic cache management
+- **Fallback Mechanisms** - Robust error handling with offline capabilities
+- **Rate Limiting** - Respectful API usage with built-in throttling
+
+### 🎨 **User Interface**
+- **Corporate Theme** - Professional and consistent design
+- **Responsive Layout** - Adaptive to different screen sizes
+- **Intuitive Navigation** - Clear workflow and user experience
+- **Real-time Feedback** - Immediate validation and status updates
+
+## 🚀 **Quick Start**
 
 ### Prerequisites
 

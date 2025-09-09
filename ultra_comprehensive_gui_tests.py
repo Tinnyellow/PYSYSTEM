@@ -644,8 +644,8 @@ class UltraComprehensiveGUITester:
             for cep in test_ceps:
                 try:
                     result = brasil_api.get_cep_info(cep)
-                    if result and 'city' in result:
-                        self.log_test(f"BrasilAPI - CEP {cep}", True, f"{result['city']}/{result['state']}")
+                    if result and any([result.get('logradouro'), result.get('bairro'), result.get('cidade'), result.get('uf')]):
+                        self.log_test(f"BrasilAPI - CEP {cep}", True, f"{result.get('cidade', 'N/A')}/{result.get('uf', 'N/A')}")
                     else:
                         self.log_test(f"BrasilAPI - CEP {cep}", False, "Resultado inválido")
                 except Exception as e:

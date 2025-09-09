@@ -527,5 +527,419 @@
     },
     "created_at": "2025-09-09T12:10:47.442559",
     "updated_at": "2025-09-09T12:10:47.452236"
+  },
+  {
+    "id": "dd4b803a-1e11-434a-9ab8-1b2baa0f3923",
+    "name": "Empresa Teste Alpha Ltda - EDITADA",
+    "document": {
+      "number": "11111111000111",
+      "type": "CNPJ"
+    },
+    "address": {
+      "postal_code": "01310100",
+      "street": "Av. Paulista",
+      "number": "1000",
+      "neighborhood": "Bela Vista",
+      "city": "São Paulo",
+      "state": "SP",
+      "complement": null
+    },
+    "contact": {
+      "email": "editada1@teste.com",
+      "phone": "11999991111"
+    },
+    "created_at": "2025-09-09T12:23:23.571937",
+    "updated_at": "2025-09-09T12:23:23.582501"
+  },
+  {
+    "id": "28d8b3b6-afec-490d-9996-49943ea81e0e",
+    "name": "Beta Comércio Eireli - EDITADA",
+    "document": {
+      "number": "22222222000122",
+      "type": "CNPJ"
+    },
+    "address": {
+      "postal_code": "20040020",
+      "street": "Av. Rio Branco",
+      "number": "200",
+      "neighborhood": "Centro",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "complement": null
+    },
+    "contact": {
+      "email": "editada2@teste.com",
+      "phone": "21888882222"
+    },
+    "created_at": "2025-09-09T12:23:23.575659",
+    "updated_at": "2025-09-09T12:23:23.584019"
+  },
+  {
+    "id": "1a99c648-24ee-4aa4-a438-676d87f8ed5b",
+    "name": "Gamma Tecnologia SA - EDITADA",
+    "document": {
+      "number": "33333333000133",
+      "type": "CNPJ"
+    },
+    "address": {
+      "postal_code": "30112000",
+      "street": "Av. Afonso Pena",
+      "number": "300",
+      "neighborhood": "Centro",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "complement": null
+    },
+    "contact": {
+      "email": "editada3@teste.com",
+      "phone": "31777773333"
+    },
+    "created_at": "2025-09-09T12:23:23.577720",
+    "updated_at": "2025-09-09T12:23:23.585241"
+  },
+  {
+    "id": "cf10bbf6-5c55-4bb2-9adb-080bb0401a80",
+    "name": "Empresa Teste Alpha Ltda - EDITADA",
+    "document": {
+      "number": "11111111000111",
+      "type": "CNPJ"
+    },
+    "address": {
+      "postal_code": "01310100",
+      "street": "Av. Paulista",
+      "number": "1000",
+      "neighborhood": "Bela Vista",
+      "city": "São Paulo",
+      "state": "SP",
+      "complement": null
+    },
+    "contact": {
+      "email": "editada1@teste.com",
+      "phone": "11999991111"
+    },
+    "created_at": "2025-09-09T12:26:23.986376",
+    "updated_at": "2025-09-09T12:26:23.989151"
+  },
+  {
+    "id": "59d6558d-cb22-4049-a190-36fea8e086c5",
+    "name": "Beta Comércio Eireli - EDITADA",
+    "document": {
+      "number": "22222222000122",
+      "type": "CNPJ"
+    },
+    "address": {
+      "postal_code": "20040020",
+      "street": "Av. Rio Branco",
+      "number": "200",
+      "neighborhood": "Centro",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "complement": null
+    },
+    "contact": {
+      "email": "editada2@teste.com",
+      "phone": "21888882222"
+    },
+    "created_at": "2025-09-09T12:26:23.987150",
+    "updated_at": "2025-09-09T12:26:23.989825"
+  },
+  {
+    "id": "df399321-a749-4ca6-b0e4-4b7f6889f1de",
+    "name": "Gamma Tecnologia SA - EDITADA",
+    "document": {
+      "number": "33333333000133",
+      "type": "CNPJ"
+    },
+    "address": {
+      "postal_code": "30112000",
+      "street": "Av. Afonso Pena",
+      "number": "300",
+      "neighborhood": "Centro",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "complement": null
+    },
+    "contact": {
+      "email": "editada3@teste.com",
+      "phone": "31777773333"
+    },
+    "created_at": "2025-09-09T12:26:23.987777",
+    "updated_at": "2025-09-09T12:26:23.990445"
+  },
+  {
+    "id": "166d8eff-bb64-4481-90d0-7fa7c37a720e",
+    "name": "Empresa Teste Alpha Ltda - EDITADA",
+    "document": {
+      "number": "11111111000111",
+      "type": "CNPJ"
+    },
+    "address": {
+      "postal_code": "01310100",
+      "street": "Av. Paulista",
+      "number": "1000",
+      "neighborhood": "Bela Vista",
+      "city": "São Paulo",
+      "state": "SP",
+      "complement": null
+    },
+    "contact": {
+      "email": "editada1@teste.com",
+      "phone": "11999991111"
+    },
+    "created_at": "2025-09-09T12:27:28.938997",
+    "updated_at": "2025-09-09T12:27:28.950192"
+  },
+  {
+    "id": "271dd0ff-69a4-4802-aee9-2aaf17daf84f",
+    "name": "Beta Comércio Eireli - EDITADA",
+    "document": {
+      "number": "22222222000122",
+      "type": "CNPJ"
+    },
+    "address": {
+      "postal_code": "20040020",
+      "street": "Av. Rio Branco",
+      "number": "200",
+      "neighborhood": "Centro",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "complement": null
+    },
+    "contact": {
+      "email": "editada2@teste.com",
+      "phone": "21888882222"
+    },
+    "created_at": "2025-09-09T12:27:28.942089",
+    "updated_at": "2025-09-09T12:27:28.952914"
+  },
+  {
+    "id": "28234a76-2b95-4b85-a091-e58b14f330a1",
+    "name": "Gamma Tecnologia SA - EDITADA",
+    "document": {
+      "number": "33333333000133",
+      "type": "CNPJ"
+    },
+    "address": {
+      "postal_code": "30112000",
+      "street": "Av. Afonso Pena",
+      "number": "300",
+      "neighborhood": "Centro",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "complement": null
+    },
+    "contact": {
+      "email": "editada3@teste.com",
+      "phone": "31777773333"
+    },
+    "created_at": "2025-09-09T12:27:28.944911",
+    "updated_at": "2025-09-09T12:27:28.955100"
+  },
+  {
+    "id": "15c857d5-0aea-4924-8af8-0a92db67da21",
+    "name": "Empresa Teste Alpha Ltda - EDITADA",
+    "document": {
+      "number": "11111111000111",
+      "type": "CNPJ"
+    },
+    "address": {
+      "postal_code": "01310100",
+      "street": "Av. Paulista",
+      "number": "1000",
+      "neighborhood": "Bela Vista",
+      "city": "São Paulo",
+      "state": "SP",
+      "complement": null
+    },
+    "contact": {
+      "email": "editada1@teste.com",
+      "phone": "11999991111"
+    },
+    "created_at": "2025-09-09T12:28:15.751351",
+    "updated_at": "2025-09-09T12:28:15.763971"
+  },
+  {
+    "id": "9582b16e-c10b-4716-ac8d-cc96dea51ae5",
+    "name": "Beta Comércio Eireli - EDITADA",
+    "document": {
+      "number": "22222222000122",
+      "type": "CNPJ"
+    },
+    "address": {
+      "postal_code": "20040020",
+      "street": "Av. Rio Branco",
+      "number": "200",
+      "neighborhood": "Centro",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "complement": null
+    },
+    "contact": {
+      "email": "editada2@teste.com",
+      "phone": "21888882222"
+    },
+    "created_at": "2025-09-09T12:28:15.755247",
+    "updated_at": "2025-09-09T12:28:15.766362"
+  },
+  {
+    "id": "693d656f-a23a-4923-bfb8-5898d6854b62",
+    "name": "Gamma Tecnologia SA - EDITADA",
+    "document": {
+      "number": "33333333000133",
+      "type": "CNPJ"
+    },
+    "address": {
+      "postal_code": "30112000",
+      "street": "Av. Afonso Pena",
+      "number": "300",
+      "neighborhood": "Centro",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "complement": null
+    },
+    "contact": {
+      "email": "editada3@teste.com",
+      "phone": "31777773333"
+    },
+    "created_at": "2025-09-09T12:28:15.758166",
+    "updated_at": "2025-09-09T12:28:15.768567"
+  },
+  {
+    "id": "9f12ad69-5b3b-4727-b9c7-ad7c42d407ce",
+    "name": "Empresa Teste Alpha Ltda - EDITADA",
+    "document": {
+      "number": "11111111000111",
+      "type": "CNPJ"
+    },
+    "address": {
+      "postal_code": "01310100",
+      "street": "Av. Paulista",
+      "number": "1000",
+      "neighborhood": "Bela Vista",
+      "city": "São Paulo",
+      "state": "SP",
+      "complement": null
+    },
+    "contact": {
+      "email": "editada1@teste.com",
+      "phone": "11999991111"
+    },
+    "created_at": "2025-09-09T12:28:55.355266",
+    "updated_at": "2025-09-09T12:28:55.362645"
+  },
+  {
+    "id": "bf48bea6-36ec-4670-9522-f5d021c193d6",
+    "name": "Beta Comércio Eireli - EDITADA",
+    "document": {
+      "number": "22222222000122",
+      "type": "CNPJ"
+    },
+    "address": {
+      "postal_code": "20040020",
+      "street": "Av. Rio Branco",
+      "number": "200",
+      "neighborhood": "Centro",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "complement": null
+    },
+    "contact": {
+      "email": "editada2@teste.com",
+      "phone": "21888882222"
+    },
+    "created_at": "2025-09-09T12:28:55.357812",
+    "updated_at": "2025-09-09T12:28:55.364684"
+  },
+  {
+    "id": "dc2dec29-1a42-48f9-9458-9c676a4f1833",
+    "name": "Gamma Tecnologia SA - EDITADA",
+    "document": {
+      "number": "33333333000133",
+      "type": "CNPJ"
+    },
+    "address": {
+      "postal_code": "30112000",
+      "street": "Av. Afonso Pena",
+      "number": "300",
+      "neighborhood": "Centro",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "complement": null
+    },
+    "contact": {
+      "email": "editada3@teste.com",
+      "phone": "31777773333"
+    },
+    "created_at": "2025-09-09T12:28:55.359404",
+    "updated_at": "2025-09-09T12:28:55.366298"
+  },
+  {
+    "id": "6882aae6-6375-4eb2-af08-82447fd08341",
+    "name": "Empresa Teste Alpha Ltda - EDITADA",
+    "document": {
+      "number": "11111111000111",
+      "type": "CNPJ"
+    },
+    "address": {
+      "postal_code": "01310100",
+      "street": "Av. Paulista",
+      "number": "1000",
+      "neighborhood": "Bela Vista",
+      "city": "São Paulo",
+      "state": "SP",
+      "complement": null
+    },
+    "contact": {
+      "email": "editada1@teste.com",
+      "phone": "11999991111"
+    },
+    "created_at": "2025-09-09T12:29:39.770919",
+    "updated_at": "2025-09-09T12:29:39.783682"
+  },
+  {
+    "id": "58709cc7-4f8e-4c6f-8b9c-df3d6f3a5027",
+    "name": "Beta Comércio Eireli - EDITADA",
+    "document": {
+      "number": "22222222000122",
+      "type": "CNPJ"
+    },
+    "address": {
+      "postal_code": "20040020",
+      "street": "Av. Rio Branco",
+      "number": "200",
+      "neighborhood": "Centro",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "complement": null
+    },
+    "contact": {
+      "email": "editada2@teste.com",
+      "phone": "21888882222"
+    },
+    "created_at": "2025-09-09T12:29:39.774464",
+    "updated_at": "2025-09-09T12:29:39.786648"
+  },
+  {
+    "id": "a14b0b9c-ded9-449e-9de1-4b69f1bbe8f5",
+    "name": "Gamma Tecnologia SA - EDITADA",
+    "document": {
+      "number": "33333333000133",
+      "type": "CNPJ"
+    },
+    "address": {
+      "postal_code": "30112000",
+      "street": "Av. Afonso Pena",
+      "number": "300",
+      "neighborhood": "Centro",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "complement": null
+    },
+    "contact": {
+      "email": "editada3@teste.com",
+      "phone": "31777773333"
+    },
+    "created_at": "2025-09-09T12:29:39.777810",
+    "updated_at": "2025-09-09T12:29:39.788594"
   }
 ]

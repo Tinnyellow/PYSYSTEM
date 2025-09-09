@@ -5,9 +5,9 @@
     "name": "Test Product",
     "unit_price": "99.99",
     "unit": "pcs",
-    "stock_quantity": 1,
+    "stock_quantity": 58,
     "created_at": "2025-09-08T21:26:31.959932",
-    "updated_at": "2025-09-09T12:10:47.509903"
+    "updated_at": "2025-09-09T12:29:39.874950"
   },
   {
     "id": "3a86c33d-c36d-4cbb-9d20-79a00bb2a1af",
@@ -15,9 +15,9 @@
     "name": "Produto Teste Automatizado",
     "unit_price": "199.99",
     "unit": "pcs",
-    "stock_quantity": 40,
+    "stock_quantity": 490,
     "created_at": "2025-09-09T10:52:44.665794",
-    "updated_at": "2025-09-09T12:10:47.522873"
+    "updated_at": "2025-09-09T12:29:39.880214"
   },
   {
     "id": "97d374dd-35a5-47f4-9b3e-5188e55b16c7",
@@ -25,9 +25,9 @@
     "name": "Notebook Dell Inspiron 15 - EDITADO",
     "unit_price": "2649.99",
     "unit": "pcs",
-    "stock_quantity": 15,
+    "stock_quantity": 120,
     "created_at": "2025-09-09T11:14:43.430095",
-    "updated_at": "2025-09-09T12:10:47.526741"
+    "updated_at": "2025-09-09T12:29:39.885712"
   },
   {
     "id": "bd07dad0-109b-45ac-b8b4-49d720d4f2dd",
@@ -1168,5 +1168,305 @@
     "stock_quantity": 510,
     "created_at": "2025-09-09T12:10:47.463752",
     "updated_at": "2025-09-09T12:10:47.463753"
+  },
+  {
+    "id": "5c17d018-03c1-4440-ab09-83407968fd84",
+    "sku": "ULTRA-TEST-Qdc2",
+    "name": "Notebook Dell Inspiron 15 - EDITADO",
+    "unit_price": "2649.99",
+    "unit": "pcs",
+    "stock_quantity": 40,
+    "created_at": "2025-09-09T12:23:23.589744",
+    "updated_at": "2025-09-09T12:23:23.608208"
+  },
+  {
+    "id": "eb827c6f-b670-4d2b-b18f-32fa71048f21",
+    "sku": "ULTRA-TEST-r5mh",
+    "name": "Mouse Wireless Logitech - EDITADO",
+    "unit_price": "139.90",
+    "unit": "pcs",
+    "stock_quantity": 27,
+    "created_at": "2025-09-09T12:23:23.591569",
+    "updated_at": "2025-09-09T12:23:23.609457"
+  },
+  {
+    "id": "da70062d-162d-4307-9c4d-39fc22ec8b8f",
+    "sku": "ULTRA-TEST-ITfX",
+    "name": "Teclado Mecânico RGB - EDITADO",
+    "unit_price": "349.99",
+    "unit": "pcs",
+    "stock_quantity": 85,
+    "created_at": "2025-09-09T12:23:23.593234",
+    "updated_at": "2025-09-09T12:23:23.593235"
+  },
+  {
+    "id": "4a871386-1742-468f-bdaa-530b763345ec",
+    "sku": "ULTRA-TEST-3v0j",
+    "name": "Monitor 24\" Full HD - EDITADO",
+    "unit_price": "949.00",
+    "unit": "pcs",
+    "stock_quantity": 40,
+    "created_at": "2025-09-09T12:23:23.594809",
+    "updated_at": "2025-09-09T12:23:23.594810"
+  },
+  {
+    "id": "778cf2d5-473a-4e25-bebf-583481ad3aaf",
+    "sku": "ULTRA-TEST-iDXm",
+    "name": "Cabo HDMI 2m - EDITADO",
+    "unit_price": "75.90",
+    "unit": "pcs",
+    "stock_quantity": 510,
+    "created_at": "2025-09-09T12:23:23.596198",
+    "updated_at": "2025-09-09T12:23:23.596199"
+  },
+  {
+    "id": "dab303ff-2df4-4093-91e6-772dcb0ffb49",
+    "sku": "ULTRA-TEST-fgk8",
+    "name": "Notebook Dell Inspiron 15 - EDITADO",
+    "unit_price": "2649.99",
+    "unit": "pcs",
+    "stock_quantity": 62,
+    "created_at": "2025-09-09T12:26:23.992430",
+    "updated_at": "2025-09-09T12:26:24.004031"
+  },
+  {
+    "id": "c01c6d63-e78c-4dee-81cc-052d94d32aaf",
+    "sku": "ULTRA-TEST-uX7t",
+    "name": "Mouse Wireless Logitech - EDITADO",
+    "unit_price": "139.90",
+    "unit": "pcs",
+    "stock_quantity": 97,
+    "created_at": "2025-09-09T12:26:23.993389",
+    "updated_at": "2025-09-09T12:26:24.004941"
+  },
+  {
+    "id": "c828d897-5afd-4571-a516-4bebfef03c57",
+    "sku": "ULTRA-TEST-Q2V1",
+    "name": "Teclado Mecânico RGB - EDITADO",
+    "unit_price": "349.99",
+    "unit": "pcs",
+    "stock_quantity": 85,
+    "created_at": "2025-09-09T12:26:23.994298",
+    "updated_at": "2025-09-09T12:26:23.994299"
+  },
+  {
+    "id": "10107717-286b-48eb-b711-468cf948cf14",
+    "sku": "ULTRA-TEST-OYRn",
+    "name": "Monitor 24\" Full HD - EDITADO",
+    "unit_price": "949.00",
+    "unit": "pcs",
+    "stock_quantity": 40,
+    "created_at": "2025-09-09T12:26:23.995222",
+    "updated_at": "2025-09-09T12:26:23.995222"
+  },
+  {
+    "id": "0f643ecb-0147-4e8d-ab60-2b3aec76729d",
+    "sku": "ULTRA-TEST-gFSo",
+    "name": "Cabo HDMI 2m - EDITADO",
+    "unit_price": "75.90",
+    "unit": "pcs",
+    "stock_quantity": 510,
+    "created_at": "2025-09-09T12:26:23.996230",
+    "updated_at": "2025-09-09T12:26:23.996231"
+  },
+  {
+    "id": "a10579b8-1702-459b-8a68-696a21371394",
+    "sku": "ULTRA-TEST-LC0z",
+    "name": "Notebook Dell Inspiron 15 - EDITADO",
+    "unit_price": "2649.99",
+    "unit": "pcs",
+    "stock_quantity": 9,
+    "created_at": "2025-09-09T12:27:28.960132",
+    "updated_at": "2025-09-09T12:27:28.980365"
+  },
+  {
+    "id": "07895bd0-7ec4-474e-afb6-88db2e0f4516",
+    "sku": "ULTRA-TEST-4q7h",
+    "name": "Mouse Wireless Logitech - EDITADO",
+    "unit_price": "139.90",
+    "unit": "pcs",
+    "stock_quantity": 52,
+    "created_at": "2025-09-09T12:27:28.962146",
+    "updated_at": "2025-09-09T12:27:28.981549"
+  },
+  {
+    "id": "58890919-01fc-4e3c-a349-043fd3c9c327",
+    "sku": "ULTRA-TEST-SqrC",
+    "name": "Teclado Mecânico RGB - EDITADO",
+    "unit_price": "349.99",
+    "unit": "pcs",
+    "stock_quantity": 85,
+    "created_at": "2025-09-09T12:27:28.963988",
+    "updated_at": "2025-09-09T12:27:28.963989"
+  },
+  {
+    "id": "ddfee8b2-fe56-404c-9995-155e2b87dbce",
+    "sku": "ULTRA-TEST-PKRm",
+    "name": "Monitor 24\" Full HD - EDITADO",
+    "unit_price": "949.00",
+    "unit": "pcs",
+    "stock_quantity": 40,
+    "created_at": "2025-09-09T12:27:28.965750",
+    "updated_at": "2025-09-09T12:27:28.965751"
+  },
+  {
+    "id": "fd3002be-b774-4453-ac74-8bb5e316fc64",
+    "sku": "ULTRA-TEST-125b",
+    "name": "Cabo HDMI 2m - EDITADO",
+    "unit_price": "75.90",
+    "unit": "pcs",
+    "stock_quantity": 510,
+    "created_at": "2025-09-09T12:27:28.967545",
+    "updated_at": "2025-09-09T12:27:28.967547"
+  },
+  {
+    "id": "689b5e02-df57-46bf-8ad4-7d53ce749ec4",
+    "sku": "ULTRA-TEST-Faao",
+    "name": "Notebook Dell Inspiron 15 - EDITADO",
+    "unit_price": "2649.99",
+    "unit": "pcs",
+    "stock_quantity": 79,
+    "created_at": "2025-09-09T12:28:15.773265",
+    "updated_at": "2025-09-09T12:28:15.793521"
+  },
+  {
+    "id": "be20b031-d154-453b-94b3-5511f1a90662",
+    "sku": "ULTRA-TEST-muK5",
+    "name": "Mouse Wireless Logitech - EDITADO",
+    "unit_price": "139.90",
+    "unit": "pcs",
+    "stock_quantity": 19,
+    "created_at": "2025-09-09T12:28:15.775116",
+    "updated_at": "2025-09-09T12:28:15.794824"
+  },
+  {
+    "id": "6aec93aa-2026-4463-b4c2-826afe8e577c",
+    "sku": "ULTRA-TEST-nYd1",
+    "name": "Teclado Mecânico RGB - EDITADO",
+    "unit_price": "349.99",
+    "unit": "pcs",
+    "stock_quantity": 85,
+    "created_at": "2025-09-09T12:28:15.776844",
+    "updated_at": "2025-09-09T12:28:15.776845"
+  },
+  {
+    "id": "9993ee7e-137b-4e24-a00c-c23a2906f923",
+    "sku": "ULTRA-TEST-3FIZ",
+    "name": "Monitor 24\" Full HD - EDITADO",
+    "unit_price": "949.00",
+    "unit": "pcs",
+    "stock_quantity": 40,
+    "created_at": "2025-09-09T12:28:15.778550",
+    "updated_at": "2025-09-09T12:28:15.778551"
+  },
+  {
+    "id": "dadafea2-01db-45a6-9ca5-58535e14f677",
+    "sku": "ULTRA-TEST-qR8K",
+    "name": "Cabo HDMI 2m - EDITADO",
+    "unit_price": "75.90",
+    "unit": "pcs",
+    "stock_quantity": 510,
+    "created_at": "2025-09-09T12:28:15.780322",
+    "updated_at": "2025-09-09T12:28:15.780324"
+  },
+  {
+    "id": "7a07ca95-6b2e-48d5-bde2-4e3d3a62185a",
+    "sku": "ULTRA-TEST-ikYZ",
+    "name": "Notebook Dell Inspiron 15 - EDITADO",
+    "unit_price": "2649.99",
+    "unit": "pcs",
+    "stock_quantity": 7,
+    "created_at": "2025-09-09T12:28:55.370369",
+    "updated_at": "2025-09-09T12:28:55.388506"
+  },
+  {
+    "id": "ce6e937f-71f7-44bf-b95e-0911bd0a2daa",
+    "sku": "ULTRA-TEST-38Mr",
+    "name": "Mouse Wireless Logitech - EDITADO",
+    "unit_price": "139.90",
+    "unit": "pcs",
+    "stock_quantity": 24,
+    "created_at": "2025-09-09T12:28:55.372287",
+    "updated_at": "2025-09-09T12:28:55.389744"
+  },
+  {
+    "id": "0893172e-89a7-467f-bc4d-f4f6985022bd",
+    "sku": "ULTRA-TEST-JtN2",
+    "name": "Teclado Mecânico RGB - EDITADO",
+    "unit_price": "349.99",
+    "unit": "pcs",
+    "stock_quantity": 85,
+    "created_at": "2025-09-09T12:28:55.373938",
+    "updated_at": "2025-09-09T12:28:55.373939"
+  },
+  {
+    "id": "2eb856f0-7271-43b8-8365-1a2e3f10ae63",
+    "sku": "ULTRA-TEST-5iGO",
+    "name": "Monitor 24\" Full HD - EDITADO",
+    "unit_price": "949.00",
+    "unit": "pcs",
+    "stock_quantity": 40,
+    "created_at": "2025-09-09T12:28:55.375423",
+    "updated_at": "2025-09-09T12:28:55.375423"
+  },
+  {
+    "id": "87ba808a-9ecd-4f3f-92ff-0afde3b24d85",
+    "sku": "ULTRA-TEST-ZtVK",
+    "name": "Cabo HDMI 2m - EDITADO",
+    "unit_price": "75.90",
+    "unit": "pcs",
+    "stock_quantity": 510,
+    "created_at": "2025-09-09T12:28:55.376841",
+    "updated_at": "2025-09-09T12:28:55.376842"
+  },
+  {
+    "id": "672e2905-601e-41e3-ace1-7a7d9c1f67b7",
+    "sku": "ULTRA-TEST-WVMp",
+    "name": "Notebook Dell Inspiron 15 - EDITADO",
+    "unit_price": "2649.99",
+    "unit": "pcs",
+    "stock_quantity": 85,
+    "created_at": "2025-09-09T12:29:39.793293",
+    "updated_at": "2025-09-09T12:29:39.814379"
+  },
+  {
+    "id": "83d1b140-99c7-4161-bfc9-0a7f2d54b93d",
+    "sku": "ULTRA-TEST-xF2E",
+    "name": "Mouse Wireless Logitech - EDITADO",
+    "unit_price": "139.90",
+    "unit": "pcs",
+    "stock_quantity": 74,
+    "created_at": "2025-09-09T12:29:39.795429",
+    "updated_at": "2025-09-09T12:29:39.815871"
+  },
+  {
+    "id": "38ff2e27-f7b0-45c8-a4e0-8584966f39d2",
+    "sku": "ULTRA-TEST-DoPC",
+    "name": "Teclado Mecânico RGB - EDITADO",
+    "unit_price": "349.99",
+    "unit": "pcs",
+    "stock_quantity": 85,
+    "created_at": "2025-09-09T12:29:39.797341",
+    "updated_at": "2025-09-09T12:29:39.797342"
+  },
+  {
+    "id": "512dc271-511a-43ef-8ea8-78d171dee641",
+    "sku": "ULTRA-TEST-8IH9",
+    "name": "Monitor 24\" Full HD - EDITADO",
+    "unit_price": "949.00",
+    "unit": "pcs",
+    "stock_quantity": 40,
+    "created_at": "2025-09-09T12:29:39.799147",
+    "updated_at": "2025-09-09T12:29:39.799148"
+  },
+  {
+    "id": "7f938fdf-1543-4c7f-bd1b-3e38b1dd38eb",
+    "sku": "ULTRA-TEST-LjDl",
+    "name": "Cabo HDMI 2m - EDITADO",
+    "unit_price": "75.90",
+    "unit": "pcs",
+    "stock_quantity": 510,
+    "created_at": "2025-09-09T12:29:39.800917",
+    "updated_at": "2025-09-09T12:29:39.800918"
   }
 ]
