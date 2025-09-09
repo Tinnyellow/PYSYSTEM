@@ -1,0 +1,51 @@
+SKU,Produto,Marca,Familia,Setor,PrecoUnit,Unidade,Estoque
+1001,Cabo USB-C 1m,G-Tech,Cabos,Acessórios,29.9,un,120
+1002,Cabo USB-A 2m,TechOne,Cabos,Acessórios,34.9,un,110
+1003,Cabo Lightning 1m,ByteWare,Cabos,Acessórios,89.9,un,60
+1004,Cabo Lightning 1.5m,Nexon,Cabos,Acessórios,24.9,un,140
+1005,Cabo HDMI 2.1 3m,DataPro,Cabos,Acessórios,59.9,un,90
+1006,Adaptador USB-C → USB-A,LinkPlus,Adaptadores,Acessórios,19.9,un,200
+1007,Adaptador HDMI → VGA,PowerMax,Adaptadores,Acessórios,54,un,40
+1008,Adaptador USB-C → RJ45,AudioFlex,Adaptadores,Acessórios,79.9,un,50
+1009,Hub USB 3.0 4 portas,PrintGo,Hubs,Acessórios,69,un,80
+1010,Hub USB-C 6 em 1,MeasurePro,Hubs,Acessórios,189,un,35
+1011,Mouse Gamer,G-Tech,Periféricos,Periféricos,39.5,un,75
+1012,Mouse Sem Fio,TechOne,Periféricos,Periféricos,69.9,un,60
+1013,Teclado Sem Fio ABNT2,ByteWare,Periféricos,Periféricos,89,un,45
+1014,Teclado Sem Fio,Nexon,Periféricos,Periféricos,149,un,30
+1015,Mouse para Gamer,DataPro,Acessórios,Acessórios,29,un,120
+1016,Headset USB,LinkPlus,Audio,Audio,179,un,25
+1017,Fone Bluetooth,PowerMax,Audio,Audio,159,un,40
+1018,Webcam Full HD,AudioFlex,Imagem,Imagem,229,un,20
+1019,Suporte Notebook Ajustável,PrintGo,Acessórios,Acessório,99,un,55
+1020,Base Cooler Notebook,MeasurePro,Acessórios,Acessórios,89,un,50
+1021,Pen Drive 32GB,G-Tech,Armazenamento,Armazenamento,39.9,un,150
+1022,Pen Drive 64GB,TechOne,Armazenamento,Armazenamento,59.9,un,130
+1023,Pen Drive 128GB,ByteWare,Armazenamento,Armazenamento,99.9,un,100
+1024,SSD SATA 240GB,Nexon,Armazenamento,Armazenamento,179,un,40
+1025,SSD SATA 480GB,DataPro,Armazenamento,Armazenamento,279,un,30
+1026,SSD NVMe 500GB,LinkPlus,Armazenamento,Armazenamento,369,un,25
+1027,SSD NVMe 1TB,PowerMax,Armazenamento,Armazenamento,599,un,20
+1028,HD Externo 1TB,AudioFlex,Armazenamento,Armazenamento,349,un,18
+1029,HD Externo 2TB,PrintGo,Armazenamento,Armazenamento,499,un,15
+1030,Cartão microSD 64GB,MeasurePro,Memória,Armazenamento,79.9,un,80
+1031,Cartão microSD 128GB,G-Tech,Memória,Armazenamento,129.9,un,70
+1032,Leitor de Cartão USB,TechOne,Acessórios,Acessórios,25,un,120
+1033,Cabo de Rede Cat6 2m,ByteWare,Cabos,Acessórios,19.9,un,200
+1034,Roteador Wi-Fi AC1200,Nexon,Rede,Rede,229,un,22
+1035,Repetidor Wi-Fi,DataPro,Rede,Rede,119,un,40
+1036,Filtro de Linha Tomadas,LinkPlus,Energia,Energia,59.9,un,90
+1037,Tomada Inteligente Wi-Fi,PowerMax,Energia,Energia,129,un,35
+1038,Carregador Duplo 2 portas,AudioFlex,Energia,Energia,49.9,un,110
+1039,Carregador USB-C PD 65W,PrintGo,Energia,Energia,249,un,25
+1040,Power Bank 10.000mAh,MeasurePro,Energia,Energia,159,un,40
+1041,Power Bank 20.000mAh,G-Tech,Energia,Energia,249,un,30
+1042,Suporte para Carro,TechOne,Acessórios,Acessórios,39.9,un,100
+1043,Cabo Audio P2 1.5m,ByteWare,Cabos,Acessórios,14.9,un,200
+1044,Cabo de Som Bluetooth,Nexon,Audio,Audio,229,un,28
+1045,Microfone Condensador USB,DataPro,Audio,Audio,299,un,18
+1046,Switch Gigabit 8 portas,LinkPlus,Rede,Rede,279,un,15
+1047,Impressora Térmica 58mm,PowerMax,Impressão,Impressão,399,un,12
+1048,Etiquetas Adesivas 40x30mm,AudioFlex,Impressão,Impressão,29.9,un,60
+1049,Tinta a Laser 40m,PrintGo,Ferramentas,Ferramentas,349,un,10
+1050,Multímetro Digital,MeasurePro,Ferramentas,Ferramentas,129,un,20

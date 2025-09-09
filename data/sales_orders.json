@@ -1,0 +1,45 @@
+[
+  {
+    "id": "61c95437-0421-45c0-bb7c-5f0b9f6126e4",
+    "company": {
+      "id": "53d97710-7451-4a5e-b303-6b27e718e0d2",
+      "name": "Test Company Ltda",
+      "document": {
+        "number": "11222333000189",
+        "type": "CNPJ"
+      },
+      "address": {
+        "postal_code": "01310100",
+        "street": "Av. Paulista",
+        "number": "1000",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "complement": null
+      },
+      "contact": {
+        "email": "test@company.com",
+        "phone": "11999999999"
+      }
+    },
+    "items": [
+      {
+        "id": "4eedbd42-a21e-4531-b42b-9d970ba61556",
+        "product": {
+          "id": "1c601738-0bb4-442b-8a44-237630bf95ec",
+          "sku": "TEST-001",
+          "name": "Test Product",
+          "unit_price": "99.99",
+          "unit": "pcs",
+          "stock_quantity": 98
+        },
+        "quantity": 2,
+        "unit_price": "99.99",
+        "created_at": "2025-09-08T21:26:31.960545",
+        "updated_at": "2025-09-08T21:26:31.960545"
+      }
+    ],
+    "created_at": "2025-09-08T21:26:31.960256",
+    "updated_at": "2025-09-08T21:26:31.960616"
+  }
+]

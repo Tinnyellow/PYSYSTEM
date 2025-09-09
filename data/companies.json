@@ -1,0 +1,117 @@
+[
+  {
+    "id": "991426b9-0d95-4d82-9850-be3b58d4dba8",
+    "name": "Test Company Ltda",
+    "document": {
+      "number": "11222333000189",
+      "type": "CNPJ"
+    },
+    "address": {
+      "postal_code": "01310100",
+      "street": "Av. Paulista",
+      "number": "1000",
+      "neighborhood": "Bela Vista",
+      "city": "São Paulo",
+      "state": "SP",
+      "complement": null
+    },
+    "contact": {
+      "email": "test@company.com",
+      "phone": "11999999999"
+    },
+    "created_at": "2025-09-08T21:17:05.131891",
+    "updated_at": "2025-09-08T21:17:05.131895"
+  },
+  {
+    "id": "9a004ff5-0add-48e7-9721-e684a377059e",
+    "name": "Test Company Ltda",
+    "document": {
+      "number": "11222333000189",
+      "type": "CNPJ"
+    },
+    "address": {
+      "postal_code": "01310100",
+      "street": "Av. Paulista",
+      "number": "1000",
+      "neighborhood": "Bela Vista",
+      "city": "São Paulo",
+      "state": "SP",
+      "complement": null
+    },
+    "contact": {
+      "email": "test@company.com",
+      "phone": "11999999999"
+    },
+    "created_at": "2025-09-08T21:22:23.617961",
+    "updated_at": "2025-09-08T21:22:23.617964"
+  },
+  {
+    "id": "4271feca-4727-405b-8473-b4ea06deb4cc",
+    "name": "Test Company Ltda",
+    "document": {
+      "number": "11222333000189",
+      "type": "CNPJ"
+    },
+    "address": {
+      "postal_code": "01310100",
+      "street": "Av. Paulista",
+      "number": "1000",
+      "neighborhood": "Bela Vista",
+      "city": "São Paulo",
+      "state": "SP",
+      "complement": null
+    },
+    "contact": {
+      "email": "test@company.com",
+      "phone": "11999999999"
+    },
+    "created_at": "2025-09-08T21:24:25.755758",
+    "updated_at": "2025-09-08T21:24:25.755761"
+  },
+  {
+    "id": "64c6b5f1-5714-431e-9b5a-104ebf3bbde7",
+    "name": "Test Company Ltda",
+    "document": {
+      "number": "11222333000189",
+      "type": "CNPJ"
+    },
+    "address": {
+      "postal_code": "01310100",
+      "street": "Av. Paulista",
+      "number": "1000",
+      "neighborhood": "Bela Vista",
+      "city": "São Paulo",
+      "state": "SP",
+      "complement": null
+    },
+    "contact": {
+      "email": "test@company.com",
+      "phone": "11999999999"
+    },
+    "created_at": "2025-09-08T21:25:34.234588",
+    "updated_at": "2025-09-08T21:25:34.234592"
+  },
+  {
+    "id": "53d97710-7451-4a5e-b303-6b27e718e0d2",
+    "name": "Test Company Ltda",
+    "document": {
+      "number": "11222333000189",
+      "type": "CNPJ"
+    },
+    "address": {
+      "postal_code": "01310100",
+      "street": "Av. Paulista",
+      "number": "1000",
+      "neighborhood": "Bela Vista",
+      "city": "São Paulo",
+      "state": "SP",
+      "complement": null
+    },
+    "contact": {
+      "email": "test@company.com",
+      "phone": "11999999999"
+    },
+    "created_at": "2025-09-08T21:26:31.959709",
+    "updated_at": "2025-09-08T21:26:31.959712"
+  }
+]

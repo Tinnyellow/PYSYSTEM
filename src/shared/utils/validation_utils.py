@@ -1,0 +1,142 @@
+"""
+Validation utilities for the Sales Management System.
+"""
+
+import re
+from typing import Union
+
+
+class ValidationUtils:
+    """Utility class for validation operations."""
+    
+    @staticmethod
+    def is_valid_email(email: str) -> bool:
+        """Validate email format."""
+        if not email or not email.strip():
+            return False
+        
+        email_pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
+        return bool(re.match(email_pattern, email.strip()))
+    
+    @staticmethod
+    def is_valid_phone(phone: str) -> bool:
+        """Validate Brazilian phone format."""
+        clean_phone = re.sub(r'\D', '', phone)
+        # Brazilian phone: 10 digits (landline) or 11 digits (mobile)
+        return len(clean_phone) in [10, 11] and clean_phone.isdigit()
+    
+    @staticmethod
+    def is_valid_postal_code(postal_code: str) -> bool:
+        """Validate Brazilian postal code format."""
+        clean_cep = re.sub(r'\D', '', postal_code)
+        return len(clean_cep) == 8 and clean_cep.isdigit()
+    
+    @staticmethod
+    def is_valid_cpf(cpf: str) -> bool:
+        """Validate CPF number."""
+        clean_cpf = re.sub(r'\D', '', cpf)
+        
+        if len(clean_cpf) != 11:
+            return False
+        
+        # Check for known invalid patterns
+        if clean_cpf in ['00000000000', '11111111111', '22222222222', 
+                        '33333333333', '44444444444', '55555555555',
+                        '66666666666', '77777777777', '88888888888', 
+                        '99999999999']:
+            return False
+        
+        # Validate first check digit
+        sum_1 = sum(int(clean_cpf[i]) * (10 - i) for i in range(9))
+        check_1 = 11 - (sum_1 % 11)
+        if check_1 >= 10:
+            check_1 = 0
+        
+        if int(clean_cpf[9]) != check_1:
+            return False
+        
+        # Validate second check digit
+        sum_2 = sum(int(clean_cpf[i]) * (11 - i) for i in range(10))
+        check_2 = 11 - (sum_2 % 11)
+        if check_2 >= 10:
+            check_2 = 0
+        
+        return int(clean_cpf[10]) == check_2
+    
+    @staticmethod
+    def is_valid_cnpj(cnpj: str) -> bool:
+        """Validate CNPJ number."""
+        clean_cnpj = re.sub(r'\D', '', cnpj)
+        
+        if len(clean_cnpj) != 14:
+            return False
+        
+        # Check for known invalid patterns
+        if clean_cnpj in ['00000000000000', '11111111111111', '22222222222222',
+                         '33333333333333', '44444444444444', '55555555555555',
+                         '66666666666666', '77777777777777', '88888888888888',
+                         '99999999999999']:
+            return False
+        
+        # Validate first check digit
+        weights_1 = [5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2]
+        sum_1 = sum(int(clean_cnpj[i]) * weights_1[i] for i in range(12))
+        check_1 = 11 - (sum_1 % 11)
+        if check_1 >= 10:
+            check_1 = 0
+        
+        if int(clean_cnpj[12]) != check_1:
+            return False
+        
+        # Validate second check digit
+        weights_2 = [6, 7, 8, 9, 2, 3, 4, 5, 6, 7, 8, 9]
+        sum_2 = sum(int(clean_cnpj[i]) * weights_2[i] for i in range(12)) + check_1 * 2
+        check_2 = 11 - (sum_2 % 11)
+        if check_2 >= 10:
+            check_2 = 0
+        
+        return int(clean_cnpj[13]) == check_2
+    
+    @staticmethod
+    def is_valid_document(document: str) -> bool:
+        """Validate document (CPF or CNPJ)."""
+        clean_doc = re.sub(r'\D', '', document)
+        
+        if len(clean_doc) == 11:
+            return ValidationUtils.is_valid_cpf(document)
+        elif len(clean_doc) == 14:
+            return ValidationUtils.is_valid_cnpj(document)
+        
+        return False
+    
+    @staticmethod
+    def is_positive_number(value: Union[str, int, float]) -> bool:
+        """Check if value is a positive number."""
+        try:
+            num_value = float(value) if isinstance(value, str) else value
+            return num_value > 0
+        except (ValueError, TypeError):
+            return False
+    
+    @staticmethod
+    def is_non_negative_number(value: Union[str, int, float]) -> bool:
+        """Check if value is a non-negative number."""
+        try:
+            num_value = float(value) if isinstance(value, str) else value
+            return num_value >= 0
+        except (ValueError, TypeError):
+            return False
+    
+    @staticmethod
+    def is_valid_integer(value: Union[str, int]) -> bool:
+        """Check if value is a valid integer."""
+        try:
+            int(value)
+            return True
+        except (ValueError, TypeError):
+            return False
+    
+    @staticmethod
+    def is_not_empty_string(value: str) -> bool:
+        """Check if string is not empty or whitespace only."""
+        return bool(value and value.strip())
